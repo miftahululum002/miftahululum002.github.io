@@ -1,3 +1,8 @@
+/** 
+ * @author: O027-MIFTAHUL ULUM S.Pd 
+ * @date: 2023-04-22 22:18:53 
+ * @desc:  
+ */
 function getTemplate(index, data) {
     let template = `<tr>
         <td>${(index + 1)}</td>
@@ -17,7 +22,8 @@ $(function () {
     }
     const url = "assets/json/data.json";
     fetch(url, fecthOptions).then((response) => response.json()).then((data) => {
-        data.forEach((element, index) => {
+        let dataParsing = data.portfolios;
+        dataParsing.forEach((element, index) => {
             let row = getTemplate(index, element);
             $('#portfolio-body').append(row);
         });
