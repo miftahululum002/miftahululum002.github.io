@@ -28,4 +28,13 @@ $(function () {
             $('#portfolio-body').append(row);
         });
     });
+
+    const urlPersonal = "assets/json/datapersonal.json";
+    fetch(urlPersonal, fecthOptions).then((response) => response.json()).then((data) => {
+        let dataParsing = data.portfolios;
+        dataParsing.forEach((element, index) => {
+            let row = getTemplate(index, element);
+            $('#portfolio-personal-body').append(row);
+        });
+    });
 })
