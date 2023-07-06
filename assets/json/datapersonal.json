@@ -4,10 +4,25 @@
   "year": "2023",
   "instagram": "@miftahululum002",
   "portfolios": [
-    {
+	{
+      "name": "Aplikasi Analisis Klinis Kompetensi Guru",
+      "year": "2023",
+      "link": "<a href=\"#\">Link<\/a>"
+    },
+	{
+      "name": "Aplikasi Analisis Kebutuhan Gizi dan Vitamin",
+      "year": "2022",
+      "link": "<a href=\"#\">Link<\/a>"
+    },
+	{
       "name": "Aplikasi Pengurusan Izin Khusus Sie Keamanan Dan Ketertiban PP Miftahul Huda Malang",
       "year": "2022",
       "link": "<a target=_blank\" href=\"https://aman.gadingpesantren.id/public/\">Link</a>"
+    },
+    {
+      "name": "Aplikasi Penerimaan Peserta Didik Baru (PPDB) di MAN 2 MALANG (ex MAN TUREN)",
+      "year": "2019",
+      "link": "<a href=\"#\">Link<\/a>"
     }
   ]
 }
