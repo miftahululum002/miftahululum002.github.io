@@ -1,0 +1,73 @@
+{
+    "author": "Miftahul Ulum, S.Pd.",
+    "email": "ulumiftahul06@gmail.com",
+    "year": "2024",
+    "instagram": "@miftahululum002",
+    "skills": [
+        {
+            "name": "Web Programming",
+            "value": 90,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "HTML",
+            "value": 100,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "CSS",
+            "value": 90,
+            "unit": "%"
+        },
+        {
+            "name": "PHP",
+            "value": 95,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Laravel",
+            "value": 92,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "CodeIgniter",
+            "value": 90,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "MySQL",
+            "value": 90,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Javascript",
+            "value": 85,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "IBM DB2",
+            "value": 90,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Komunikasi",
+            "value": 85,
+            "category": "other",
+            "unit": "%"
+        },
+        {
+            "name": "Manajemen Waktu",
+            "value": 90,
+            "category": "other",
+            "unit": "%"
+        }
+    ]
+}
