@@ -5,7 +5,22 @@
   "instagram": "@miftahululum002",
   "portfolios": [
     {
-      "name": "Aplikasi Pendaftaran Mahasiswa Baru dan Registrasi Ulang IAIN Ponorogo",
+      "name": "Sistem Penerimaan Mahasiswa Baru (PMB) Universitas Hindu Negeri (UHN) I Gusti Bagus Sugriwa Denpasar Bali",
+      "year": "2023",
+      "link": "<a target=\"_blank\" href=\"https://pmb.uhnsugriwa.ac.id/\">Link</a>"
+    },
+    {
+      "name": "Sistem Keuangan SION (Siakad) Terintegrasi dengan Bank BPD Bali di Universitas Hindu Negeri (UHN) I Gusti Bagus Sugriwa Denpasar Bali",
+      "year": "2023",
+      "link": "<a target=\"_blank\" href=\"https://siakad-admin.uhnsugriwa.ac.id/\">Link</a>"
+    },
+    {
+      "name": "Sistem Informasi Maufacturing Terintegrasi dengan Accounting, Inventory, Finance, Marketing dll",
+      "year": "2023",
+      "link": "<a target=\"_blank\" href=\"https://soojin.arkatama.id/\">Link</a>"
+    },
+    {
+      "name": "Aplikasi Pendaftaran Mahasiswa Baru (PMB) dan Registrasi Ulang IAIN Ponorogo",
       "year": "2023",
       "link": "<a target=_blank\" href=\"https://my.iainponorogo.ac.id/siakad/pmb\">Link</a>"
     },
