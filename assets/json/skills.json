@@ -19,6 +19,7 @@
         {
             "name": "CSS",
             "value": 90,
+            "category": "teknis",
             "unit": "%"
         },
         {
