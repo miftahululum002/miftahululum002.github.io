@@ -59,6 +59,24 @@
             "unit": "%"
         },
         {
+            "name": "Phyton",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Django",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Ruby on Rails",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
             "name": "Komunikasi",
             "value": 85,
             "category": "other",
