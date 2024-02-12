@@ -23,6 +23,12 @@
             "unit": "%"
         },
         {
+            "name": "sass",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
             "name": "PHP",
             "value": 95,
             "category": "teknis",
