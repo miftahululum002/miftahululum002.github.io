@@ -1,0 +1,63 @@
+{
+    "author": "Miftahul Ulum, S.Pd.",
+    "email": "ulumiftahul06@gmail.com",
+    "year": "2023",
+    "instagram": "@miftahululum002",
+    "portfolios": [
+        {
+            "name": "Sistem Penerimaan Mahasiswa Baru (PMB) Universitas Hindu Negeri (UHN) I Gusti Bagus Sugriwa Denpasar Bali",
+            "year": "2023",
+            "link": "<a target=\"_blank\" href=\"https://pmb.uhnsugriwa.ac.id/\">Link</a>"
+        },
+        {
+            "name": "Sistem Keuangan SION (Siakad) Terintegrasi dengan Bank BPD Bali di Universitas Hindu Negeri (UHN) I Gusti Bagus Sugriwa Denpasar Bali",
+            "year": "2023",
+            "link": "<a target=\"_blank\" href=\"https://siakad-admin.uhnsugriwa.ac.id/\">Link</a>"
+        },
+        {
+            "name": "Sistem Informasi Maufacturing Terintegrasi dengan Accounting, Inventory, Finance, Marketing dll",
+            "year": "2023",
+            "link": "<a target=\"_blank\" href=\"https://soojin.arkatama.id/\">Link</a>"
+        },
+        {
+            "name": "Aplikasi Pendaftaran Mahasiswa Baru (PMB) dan Registrasi Ulang IAIN Ponorogo",
+            "year": "2023",
+            "link": "<a target=_blank\" href=\"https://my.iainponorogo.ac.id/siakad/pmb\">Link</a>"
+        },
+        {
+            "name": "Aplikasi Registrasi Ulang PMB IAIN Ponorogo",
+            "year": "2023",
+            "link": "<a target=\"_blank\" href=\"https://my.iainponorogo.ac.id/siakad/e-registrasi\">Link</a>"
+        },
+        {
+            "name": "Siakad IAIN Ponorogo",
+            "year": "2023",
+            "link": "<a target=\"_blank\" href=\"https://my.iainponorogo.ac.id/siakad/siakad-admin\">Link</a>"
+        },
+        {
+            "name": "Aplikasi Pendaftaran Mahasiswa Baru Pusat Pendidikan Pertanian (PUSDIKTAN)",
+            "year": "2022 & 2023",
+            "link": "<a target=\"_blank\" href=\"https://pmb.pusdiktan.id/\">Link</a>"
+        },
+        {
+            "name": "Computer Assisted Test (CAT) PMB PUSDIKTAN",
+            "year": "2022",
+            "link": "<a target=\"_blank\" href=\"https://cat.pusdiktan.id\">Link</a>"
+        },
+        {
+            "name": "Aplikasi Accounting",
+            "year": "2021",
+            "link": "<a target=\"_blank\" href=\"https://accounting.itsk-soepraoen.ac.id/\">Link</a>"
+        },
+        {
+            "name": "Sistem Networking",
+            "year": "2021",
+            "link": "<a target=\"_blank\" href=\"https://bgskin.arkatama.id/\">Link</a>"
+        },
+        {
+            "name": "Sistem Accounting Terintegrasi dengan Kepelangganan",
+            "year": "2021",
+            "link": "<a target=\"_blank\" href=\"https://asnet.arkatama.id/\">Link</a>"
+        }
+    ]
+}

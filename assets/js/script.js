@@ -66,6 +66,20 @@ function getPortoTim() {
     });
 }
 
+function getSertifikat() {
+  const url = "assets/json/sertifikat.json";
+  const fecthOptions = getFetchOptions();
+  fetch(url, fecthOptions)
+    .then((response) => response.json())
+    .then((data) => {
+      let dataParsing = data.portfolios;
+      dataParsing.forEach((element, index) => {
+        let row = getTemplate(index, element);
+        $("#certified-body").append(row);
+      });
+    });
+}
+
 function getPortoPersonal() {
   const urlPersonal = "assets/json/datapersonal.json";
   const fecthOptions = getFetchOptions();
@@ -83,5 +97,6 @@ function getPortoPersonal() {
 $(function () {
   getSkills();
   getPortoTim();
+  getSertifikat();
   getPortoPersonal();
 });
