@@ -58,7 +58,7 @@ function getPortoTim() {
   fetch(url, fecthOptions)
     .then((response) => response.json())
     .then((data) => {
-      let dataParsing = data.portfolios;
+      let dataParsing = data.data;
       dataParsing.forEach((element, index) => {
         let row = getTemplate(index, element);
         $("#portfolio-body").append(row);
@@ -72,7 +72,7 @@ function getSertifikat() {
   fetch(url, fecthOptions)
     .then((response) => response.json())
     .then((data) => {
-      let dataParsing = data.portfolios;
+      let dataParsing = data.data;
       dataParsing.forEach((element, index) => {
         let row = getTemplate(index, element);
         $("#certified-body").append(row);
@@ -86,7 +86,7 @@ function getPortoPersonal() {
   fetch(urlPersonal, fecthOptions)
     .then((response) => response.json())
     .then((data) => {
-      let dataParsing = data.portfolios;
+      let dataParsing = data.data;
       dataParsing.forEach((element, index) => {
         let row = getTemplate(index, element);
         $("#portfolio-personal-body").append(row);
