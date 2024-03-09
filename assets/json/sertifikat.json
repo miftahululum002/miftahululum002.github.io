@@ -5,28 +5,12 @@
     "instagram": "@miftahululum002",
     "data": [
         {
-            "name": "<b>Microsoft Office Desktop Application</b> Universitas Brawijaya - Trust Training Partners - Microsoft Learning Partners",
-            "date": "25 Juni 2020",
-            "expired": "-",
+            "name": "<b>Memulai Pemrograman dengan Python</b> &mdash; Dicoding",
+            "date": "12 Februari 2024",
+            "expired": "12 Februari 2027",
             "link": [
-                "assets/certificates/sertifikasi-it_miftahululum002.JPG"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan Program Profesional Academy</b> Digital Talent Scholarship 2021 Pada Skema \"Ruby\" sejumlah 77 Jam Pelatihan",
-            "date": "25 Agustus - 25 September 2021",
-            "expired": "-",
-            "link": [
-                "assets/certificates/proa-ruby_miftahululum.pdf"
-            ]
-        },
-        {
-            "name": "Sertifikasi Kompetensi <b>Senior Programmer</b> &mdash; BNSP",
-            "date": "16 Februari 2023",
-            "expired": "16 Februari 2026",
-            "link": [
-                "assets/certificates/senior-programmer_miftahululum002.pdf",
-                "https://sertifikasi.lspdigital.id/sertifikasi/cetak_sertifikat/67286"
+                "assets/certificates/sertifikat_course_86_1451925_080324215930_miftahululum002.pdf",
+                "https://www.dicoding.com/certificates/KEXL8K9Y4ZG2"
             ]
         },
         {
@@ -39,12 +23,28 @@
             ]
         },
         {
-            "name": "<b>Memulai Pemrograman dengan Python</b> &mdash; Dicoding",
-            "date": "12 Februari 2024",
-            "expired": "12 Februari 2027",
+            "name": "Sertifikasi Kompetensi <b>Senior Programmer</b> &mdash; BNSP",
+            "date": "16 Februari 2023",
+            "expired": "16 Februari 2026",
             "link": [
-                "assets/certificates/sertifikat_course_86_1451925_080324215930_miftahululum002.pdf",
-                "https://www.dicoding.com/certificates/KEXL8K9Y4ZG2"
+                "assets/certificates/senior-programmer_miftahululum002.pdf",
+                "https://sertifikasi.lspdigital.id/sertifikasi/cetak_sertifikat/67286"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Program Profesional Academy</b> &mdash; Digital Talent Scholarship 2021 Pada Skema \"Ruby\" sejumlah 77 Jam Pelatihan",
+            "date": "25 Agustus - 25 September 2021",
+            "expired": "-",
+            "link": [
+                "assets/certificates/proa-ruby_miftahululum.pdf"
+            ]
+        },
+        {
+            "name": "<b>Microsoft Office Desktop Application</b> &mdash; Universitas Brawijaya - Trust Training Partners - Microsoft Learning Partners",
+            "date": "25 Juni 2020",
+            "expired": "-",
+            "link": [
+                "assets/certificates/sertifikasi-it_miftahululum002.JPG"
             ]
         }
     ]
