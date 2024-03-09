@@ -14,6 +14,23 @@ function getTemplate(index, data) {
   return template;
 }
 
+function getTemplateSertifikat(index, data) {
+  let dateYear = data.year != undefined ? data.year : data.date;
+  let link = "<small>";
+  data.link.forEach((item, ind) => {
+    link += `<a href="${item}" target="_blank">Link ${ind + 1}</a><br>`;
+  });
+  link += "</small>";
+  let template = `<tr>
+        <td>${index + 1}.</td>
+        <td>${data.name}</td>
+        <td>${dateYear}</td>
+        <td>${data.expired}</td>
+        <td>${link}</td>
+    </tr>`;
+  return template;
+}
+
 function getContainerSkill(data) {
   return `<div class="progress">
 	<span class="skill">${data.name} <i class="val">${data.value}${data.unit}</i></span>
@@ -75,7 +92,7 @@ function getSertifikat() {
     .then((data) => {
       let dataParsing = data.data;
       dataParsing.forEach((element, index) => {
-        let row = getTemplate(index, element);
+        let row = getTemplateSertifikat(index, element);
         $("#certified-body").append(row);
       });
     });

@@ -1,13 +1,34 @@
 {
     "author": "Miftahul Ulum, S.Pd.",
     "email": "ulumiftahul06@gmail.com",
-    "year": "2023",
+    "year": "2024",
     "instagram": "@miftahululum002",
     "data": [
         {
-            "name": "Pelatihan Program Profesional Academy Pada Skema \"Ruby\" sejumlah 77 Jam Pelatihan",
-            "date": "25 Agustus - 25 September 2023",
-            "link": "<a target=\"_blank\" href=\"assets/certificates/proa-ruby_miftahululum.pdf\">Link</a>"
+            "name": "<b>Pelatihan Program Profesional Academy</b> Digital Talent Scholarship 2021 Pada Skema \"Ruby\" sejumlah 77 Jam Pelatihan",
+            "date": "25 Agustus - 25 September 2021",
+            "expired": "-",
+            "link": [
+                "assets/certificates/proa-ruby_miftahululum.pdf"
+            ]
+        },
+        {
+            "name": "<b>Belajar Dasar Visualisasi Data</b> &mdash; Dicoding",
+            "date": "07 Februari 2024",
+            "expired": "07 Februari 2027",
+            "link": [
+                "assets/certificates/sertifikat_course_177_1451925_080324220103_miftahululum002.pdf",
+                "https://www.dicoding.com/certificates/JMZVDRN4JZN9"
+            ]
+        },
+        {
+            "name": "<b>Memulai Pemrograman dengan Python</b> &mdash; Dicoding",
+            "date": "12 Februari 2024",
+            "expired": "12 Februari 2027",
+            "link": [
+                "assets/certificates/sertifikat_course_86_1451925_080324215930_miftahululum002.pdf",
+                "https://www.dicoding.com/certificates/KEXL8K9Y4ZG2"
+            ]
         }
     ]
 }
