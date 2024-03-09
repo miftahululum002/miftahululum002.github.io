@@ -5,11 +5,28 @@
     "instagram": "@miftahululum002",
     "data": [
         {
+            "name": "<b>Microsoft Office Desktop Application</b> Universitas Brawijaya - Trust Training Partners - Microsoft Learning Partners",
+            "date": "25 Juni 2020",
+            "expired": "-",
+            "link": [
+                "assets/certificates/sertifikasi-it_miftahululum002.JPG"
+            ]
+        },
+        {
             "name": "<b>Pelatihan Program Profesional Academy</b> Digital Talent Scholarship 2021 Pada Skema \"Ruby\" sejumlah 77 Jam Pelatihan",
             "date": "25 Agustus - 25 September 2021",
             "expired": "-",
             "link": [
                 "assets/certificates/proa-ruby_miftahululum.pdf"
+            ]
+        },
+        {
+            "name": "Sertifikasi Kompetensi <b>Senior Programmer</b> &mdash; BNSP",
+            "date": "16 Februari 2023",
+            "expired": "16 Februari 2026",
+            "link": [
+                "assets/certificates/senior-programmer_miftahululum002.pdf",
+                "https://sertifikasi.lspdigital.id/sertifikasi/cetak_sertifikat/67286"
             ]
         },
         {
