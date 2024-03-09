@@ -40,6 +40,105 @@
             ]
         },
         {
+            "name": "<b>Pelatihan Ruby</b> &mdash; Progate",
+            "date": "23 Januari 2021",
+            "expired": "-",
+            "link": [
+                "assets/certificates/ruby_miftahululum002.pdf",
+                "https://progate.com/course_certificate/a21360b2qlkmux"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan React</b> &mdash; Progate",
+            "date": "23 Januari 2021",
+            "expired": "-",
+            "link": [
+                "assets/certificates/react_miftahululum002.pdf",
+                "https://progate.com/course_certificate/545ce45eqndkn2"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Javascript</b> &mdash; Progate",
+            "date": "23 Januari 2021",
+            "expired": "-",
+            "link": [
+                "assets/certificates/javascript_miftahululum002.pdf",
+                "https://progate.com/course_certificate/44f4cf96qndmmx"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Python</b> &mdash; Progate",
+            "date": "20 Januari 2021",
+            "expired": "-",
+            "link": [
+                "assets/certificates/python_miftahululum002.pdf",
+                "https://progate.com/course_certificate/06071582qlmm9h"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Node JS</b> &mdash; Progate",
+            "date": "20 Januari 2021",
+            "expired": "-",
+            "link": [
+                "assets/certificates/nodejs_miftahululum002.pdf",
+                "https://progate.com/course_certificate/17f3a49eqn7ua0"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan HTML & CSS</b> &mdash; Progate",
+            "date": "20 Desember 2020",
+            "expired": "-",
+            "link": [
+                "assets/certificates/html_miftahululum002.pdf",
+                "https://progate.com/course_certificate/09cb2ad2qlmtpi"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan SQL</b> &mdash; Progate",
+            "date": "19 Desember 2020",
+            "expired": "-",
+            "link": [
+                "assets/certificates/sql_miftahululum002.pdf",
+                "https://progate.com/course_certificate/bd2a4dc3qlkjwj"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan PHP</b> &mdash; Progate",
+            "date": "19 Desember 2020",
+            "expired": "-",
+            "link": [
+                "assets/certificates/php_miftahululum002.pdf",
+                "https://progate.com/course_certificate/7cd3fa9aqlkjfv"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Java</b> &mdash; Progate",
+            "date": "13 Desember 2020",
+            "expired": "-",
+            "link": [
+                "assets/certificates/java_miftahululum002.pdf",
+                "https://progate.com/course_certificate/6f70f22aql9wrh"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Git</b> &mdash; Progate",
+            "date": "12 Desember 2020",
+            "expired": "-",
+            "link": [
+                "assets/certificates/git_miftahululum002.pdf",
+                "https://progate.com/course_certificate/c9f11200ql7f0q"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Command Line (Unix)</b> &mdash; Progate",
+            "date": "12 Desember 2020",
+            "expired": "-",
+            "link": [
+                "assets/certificates/cliunix_miftahululum002.pdf",
+                "https://progate.com/course_certificate/8fc78d14ql7g1x"
+            ]
+        },
+        {
             "name": "<b>Microsoft Office Desktop Application</b> &mdash; Universitas Brawijaya - Trust Training Partners - Microsoft Learning Partners",
             "date": "25 Juni 2020",
             "expired": "-",
