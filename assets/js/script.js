@@ -4,10 +4,11 @@
  * @desc:
  */
 function getTemplate(index, data) {
+  let dateYear = data.year != undefined ? data.year : data.date;
   let template = `<tr>
         <td>${index + 1}.</td>
         <td>${data.name}</td>
-        <td>${data.year}</td>
+        <td>${dateYear}</td>
         <td>${data.link}</td>
     </tr>`;
   return template;
