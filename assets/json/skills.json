@@ -23,6 +23,12 @@
             "unit": "%"
         },
         {
+            "name": "Tailwind CSS",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
             "name": "Node JS",
             "value": 80,
             "category": "teknis",
