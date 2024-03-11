@@ -23,6 +23,24 @@
             "unit": "%"
         },
         {
+            "name": "Node JS",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "React JS",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Golang",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
             "name": "SASS",
             "value": 80,
             "category": "teknis",
@@ -47,6 +65,12 @@
             "unit": "%"
         },
         {
+            "name": "Yii Framework",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
             "name": "MySQL",
             "value": 90,
             "category": "teknis",
@@ -61,6 +85,12 @@
         {
             "name": "IBM DB2",
             "value": 90,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Oracle Database",
+            "value": 80,
             "category": "teknis",
             "unit": "%"
         },
