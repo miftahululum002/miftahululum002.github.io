@@ -119,7 +119,7 @@ function getPortoPersonal() {
 function getGaleriPortofolio(data) {
   let html = "";
   data.forEach((element, index) => {
-    html += `<div class="col-lg-4 col-md-6 portfolio-item border border-1 px-1 filter-app">
+    html += `<div class="col-lg-6 col-md-6 portfolio-item border border-1 px-1 filter-app">
       <div class="portfolio-wrap">
         <img src="${element.image}" class="img-fluid" alt="image-${element.shortname}">
         <div class="portfolio-info">
