@@ -81,6 +81,8 @@ function getPortoTim() {
         let row = getTemplate(index, element);
         $("#portfolio-body").append(row);
       });
+      let visual = getGaleriPortofolio(dataParsing);
+      $("#container-visual").html(visual);
     });
 }
 
@@ -109,7 +111,29 @@ function getPortoPersonal() {
         let row = getTemplate(index, element);
         $("#portfolio-personal-body").append(row);
       });
+      let visual = getGaleriPortofolio(dataParsing);
+      $("#container-visual-personal").html(visual);
     });
+}
+
+function getGaleriPortofolio(data) {
+  let html = "";
+  data.forEach((element, index) => {
+    html += `<div class="col-lg-4 col-md-6 portfolio-item border border-1 px-1 filter-app">
+      <div class="portfolio-wrap">
+        <img src="${element.image}" class="img-fluid" alt="image-${element.shortname}">
+        <div class="portfolio-info">
+          <span>${element.shortname}</span>
+          <p>Aplikasi Web</p>
+          <div class="portfolio-links">
+            <a href="${element.image}" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+            <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>`;
+  });
+  return html;
 }
 
 $(function () {

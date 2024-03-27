@@ -6,62 +6,86 @@
   "data": [
     {
       "name": "Sistem Informasi Penataan Ruang (Sipetarung)",
+      "shortname": "Sipetarung",
       "year": "2024",
+      "image": "assets/img/portfolio/sipetarung.png",
       "link": "<a target=\"_blank\" href=\"https://sipetarung.arkatama.id//\">Link</a>"
     },
     {
       "name": "Sistem Penerimaan Mahasiswa Baru (PMB) Universitas Hindu Negeri (UHN) I Gusti Bagus Sugriwa Denpasar Bali",
+      "shortname": "PMB UHN Sugriwa",
       "year": "2023",
+      "image": "assets/img/portfolio/pmb-uhn.png",
       "link": "<a target=\"_blank\" href=\"https://pmb.uhnsugriwa.ac.id/\">Link</a>"
     },
     {
       "name": "Sistem Keuangan SION (Siakad) Terintegrasi dengan Bank BPD Bali di Universitas Hindu Negeri (UHN) I Gusti Bagus Sugriwa Denpasar Bali",
+      "shortname": "Siakad UHN Sugriwa",
       "year": "2023",
+      "image": "assets/img/portfolio/siakad-uhn.png",
       "link": "<a target=\"_blank\" href=\"https://siakad-admin.uhnsugriwa.ac.id/\">Link</a>"
     },
     {
       "name": "Sistem Informasi Maufacturing Terintegrasi dengan Accounting, Inventory, Finance, Marketing dll",
+      "shortname": "Soojin App",
       "year": "2023",
+      "image": "assets/img/portfolio/soojin-app.png",
       "link": "<a target=\"_blank\" href=\"https://soojin.arkatama.id/\">Link</a>"
     },
     {
-      "name": "Aplikasi Pendaftaran Mahasiswa Baru (PMB) dan Registrasi Ulang IAIN Ponorogo",
+      "name": "Aplikasi Pendaftaran Mahasiswa Baru (PMB) IAIN Ponorogo",
+      "shortname": "PMB IAIN Ponorogo",
       "year": "2023",
+      "image": "assets/img/portfolio/pmb-iainpo.png",
       "link": "<a target=_blank\" href=\"https://my.iainponorogo.ac.id/siakad/pmb\">Link</a>"
     },
     {
-      "name": "Aplikasi Registrasi Ulang PMB IAIN Ponorogo",
+      "name": "Aplikasi Registrasi Ulang IAIN Ponorogo",
+      "shortname": "eRegistrasi IAIN Ponorogo",
       "year": "2023",
-      "link": "<a target=\"_blank\" href=\"https://my.iainponorogo.ac.id/siakad/e-registrasi\">Link</a>"
+      "image": "assets/img/portfolio/eregistrasi-iainpo.png",
+      "link": "<a target=_blank\" href=\"https://my.iainponorogo.ac.id/siakad/e-registrasi/\">Link</a>"
     },
     {
       "name": "Siakad IAIN Ponorogo",
+      "shortname": "Siakad IAIN Ponorogo",
       "year": "2023",
+      "image": "assets/img/portfolio/siakad-iainpo.png",
       "link": "<a target=\"_blank\" href=\"https://my.iainponorogo.ac.id/siakad/siakad-admin\">Link</a>"
     },
     {
       "name": "Aplikasi Pendaftaran Mahasiswa Baru Pusat Pendidikan Pertanian (PUSDIKTAN)",
+      "shortname": "PMB Pusdiktan",
       "year": "2022 & 2023",
+      "image": "assets/img/portfolio/pmb-pusdiktan.png",
       "link": "<a target=\"_blank\" href=\"https://pmb.pusdiktan.id/\">Link</a>"
     },
     {
       "name": "Computer Assisted Test (CAT) PMB PUSDIKTAN",
+      "shortname": "CAT Pusdiktan",
       "year": "2022",
+      "image": "assets/img/portfolio/cat-pusdiktan.png",
       "link": "<a target=\"_blank\" href=\"https://cat.pusdiktan.id\">Link</a>"
     },
     {
       "name": "Aplikasi Accounting",
+      "shortname": "Accounting",
       "year": "2021",
+      "image": "assets/img/portfolio/accounting-itsk.png",
       "link": "<a target=\"_blank\" href=\"https://accounting.itsk-soepraoen.ac.id/\">Link</a>"
     },
     {
       "name": "Sistem Networking",
+      "shortname": "Sistem Networking",
       "year": "2021",
+      "image": "assets/img/portfolio/bgskin.png",
       "link": "<a target=\"_blank\" href=\"https://bgskin.arkatama.id/\">Link</a>"
     },
     {
       "name": "Sistem Accounting Terintegrasi dengan Kepelangganan",
+      "shortname": "Sistem Kepelangganan",
       "year": "2021",
+      "image": "assets/img/portfolio/asnet.png",
       "link": "<a target=\"_blank\" href=\"https://asnet.arkatama.id/\">Link</a>"
     }
   ]
