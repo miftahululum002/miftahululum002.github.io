@@ -8,6 +8,8 @@ function getTemplate(index, data) {
   let template = `<tr>
         <td>${index + 1}.</td>
         <td>${data.name}</td>
+        <td><small>${data.description}</small></td>
+        <td><small>${data.technology}</small></td>
         <td>${dateYear}</td>
         <td>${data.link}</td>
     </tr>`;

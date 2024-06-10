@@ -9,84 +9,108 @@
       "shortname": "Sipetarung",
       "year": "2024",
       "image": "assets/img/portfolio/sipetarung.png",
-      "link": "<a target=\"_blank\" href=\"https://sipetarung.arkatama.id//\">Link</a>"
+      "link": "<a target=\"_blank\" href=\"https://sipetarung.arkatama.id//\">Link</a>",
+      "description": "Aplikasi untuk memetakan dan menata ruang di suatu wilayah di Kalimantan Utara.",
+      "technology": "CodeIgniter, MySQL, LeafletJS, JQuery, Bootstrap"
     },
     {
       "name": "Sistem Penerimaan Mahasiswa Baru (PMB) Universitas Hindu Negeri (UHN) I Gusti Bagus Sugriwa Denpasar Bali",
       "shortname": "PMB UHN Sugriwa",
       "year": "2023",
       "image": "assets/img/portfolio/pmb-uhn.png",
-      "link": "<a target=\"_blank\" href=\"https://pmb.uhnsugriwa.ac.id/\">Link</a>"
+      "link": "<a target=\"_blank\" href=\"https://pmb.uhnsugriwa.ac.id/\">Link</a>",
+      "description": "Aplikasi manajemen penerimaan mahasiswa baru di UHN Sugriwa Denpasar Bali yang terintegrasi dengan bank BPD Bali.",
+      "technology": "CodeIgniter, Laravel, MySQL, JQuery, Bootstrap, API Bank BPD Bali"
     },
     {
       "name": "Sistem Keuangan SION (Siakad) Terintegrasi dengan Bank BPD Bali di Universitas Hindu Negeri (UHN) I Gusti Bagus Sugriwa Denpasar Bali",
       "shortname": "Siakad UHN Sugriwa",
       "year": "2023",
       "image": "assets/img/portfolio/siakad-uhn.png",
-      "link": "<a target=\"_blank\" href=\"https://siakad-admin.uhnsugriwa.ac.id/\">Link</a>"
+      "link": "<a target=\"_blank\" href=\"https://siakad-admin.uhnsugriwa.ac.id/\">Link</a>",
+      "description": "Sistem manajemen keuangan dan pembayaran kuliah yang terintegrasi dengan bank BPD Bali di UHN Sugriwa Denpasar Bali.",
+      "technology": "CodeIgniter, Laravel, MySQL, JQuery, Bootstrap, API Bank BPD Bali"
     },
     {
       "name": "Sistem Informasi Maufacturing Terintegrasi dengan Accounting, Inventory, Finance, Marketing dll",
       "shortname": "Soojin App",
       "year": "2023",
       "image": "assets/img/portfolio/soojin-app.png",
-      "link": "<a target=\"_blank\" href=\"https://soojin.arkatama.id/\">Link</a>"
+      "link": "<a target=\"_blank\" href=\"https://soojin.arkatama.id/\">Link</a>",
+      "description": "Aplikasi sistem informasi manufacturing yang terintegrasi dengan accounting, inventory, finance, marketing, dll.",
+      "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, SwiperJS, HighchartsJS"
     },
     {
       "name": "Aplikasi Pendaftaran Mahasiswa Baru (PMB) IAIN Ponorogo",
       "shortname": "PMB IAIN Ponorogo",
       "year": "2023",
       "image": "assets/img/portfolio/pmb-iainpo.png",
-      "link": "<a target=_blank\" href=\"https://my.iainponorogo.ac.id/siakad/pmb\">Link</a>"
+      "link": "<a target=_blank\" href=\"https://my.iainponorogo.ac.id/siakad/pmb\">Link</a>",
+      "description": "Aplikasi penerimaan mahasiswa baru yang terintegrasi dengan BNI",
+      "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, SwiperJS, HighchartsJS, APi BNI eCollection"
     },
     {
       "name": "Aplikasi Registrasi Ulang IAIN Ponorogo",
       "shortname": "eRegistrasi IAIN Ponorogo",
       "year": "2023",
       "image": "assets/img/portfolio/eregistrasi-iainpo.png",
-      "link": "<a target=_blank\" href=\"https://my.iainponorogo.ac.id/siakad/e-registrasi/\">Link</a>"
+      "link": "<a target=_blank\" href=\"https://my.iainponorogo.ac.id/siakad/e-registrasi/\">Link</a>",
+      "description": "Aplikasi registrasi ulang mahasiswa baru",
+      "technology": "CodeIgniter, Laravel, PostgreSQL, JQuery, Bootstrap, SwiperJS, HighchartsJS"
     },
     {
       "name": "Siakad IAIN Ponorogo",
       "shortname": "Siakad IAIN Ponorogo",
       "year": "2023",
       "image": "assets/img/portfolio/siakad-iainpo.png",
-      "link": "<a target=\"_blank\" href=\"https://my.iainponorogo.ac.id/siakad/siakad-admin\">Link</a>"
+      "link": "<a target=\"_blank\" href=\"https://my.iainponorogo.ac.id/siakad/siakad-admin\">Link</a>",
+      "description": "Sistem informasi akademik bagian keuangan, UKT, tagihan pembayaran",
+      "technology": "CodeIgniter, Laravel, PostgreSQL, JQuery, Bootstrap, SwiperJS, HighchartsJS"
     },
     {
       "name": "Aplikasi Pendaftaran Mahasiswa Baru Pusat Pendidikan Pertanian (PUSDIKTAN)",
       "shortname": "PMB Pusdiktan",
       "year": "2022 & 2023",
       "image": "assets/img/portfolio/pmb-pusdiktan.png",
-      "link": "<a target=\"_blank\" href=\"https://pmb.pusdiktan.id/\">Link</a>"
+      "link": "<a target=\"_blank\" href=\"https://pmb.pusdiktan.id/\">Link</a>",
+      "description": "Aplikasi penerimaan mahasiswa baru Politeknik di lingkungan Kementerian Pertanian",
+      "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, SwiperJS, HighchartsJS"
     },
     {
       "name": "Computer Assisted Test (CAT) PMB PUSDIKTAN",
       "shortname": "CAT Pusdiktan",
       "year": "2022",
       "image": "assets/img/portfolio/cat-pusdiktan.png",
-      "link": "<a target=\"_blank\" href=\"https://cat.pusdiktan.id\">Link</a>"
+      "link": "<a target=\"_blank\" href=\"https://cat.pusdiktan.id\">Link</a>",
+      "description": "Aplikasi ujian online untuk penerimaan mahasiswa baru Politeknik di lingkungan Kementerian Pertanian",
+      "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, SwiperJS, HighchartsJS"
     },
     {
       "name": "Aplikasi Accounting",
       "shortname": "Accounting",
       "year": "2021",
       "image": "assets/img/portfolio/accounting-itsk.png",
-      "link": "<a target=\"_blank\" href=\"https://accounting.itsk-soepraoen.ac.id/\">Link</a>"
+      "link": "<a target=\"_blank\" href=\"https://accounting.itsk-soepraoen.ac.id/\">Link</a>",
+      "description": "Aplikasi keuangan",
+      "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, HighchartsJS"
     },
     {
       "name": "Sistem Networking",
       "shortname": "Sistem Networking",
       "year": "2021",
       "image": "assets/img/portfolio/bgskin.png",
-      "link": "<a target=\"_blank\" href=\"https://bgskin.arkatama.id/\">Link</a>"
+      "link": "<a target=\"_blank\" href=\"https://bgskin.arkatama.id/\">Link</a>",
+      "description": "Aplikasi networking pelanggan",
+      "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, HighchartsJS"
     },
     {
       "name": "Sistem Accounting Terintegrasi dengan Kepelangganan",
       "shortname": "Sistem Kepelangganan",
       "year": "2021",
       "image": "assets/img/portfolio/asnet.png",
-      "link": "<a target=\"_blank\" href=\"https://asnet.arkatama.id/\">Link</a>"
+      "link": "<a target=\"_blank\" href=\"https://asnet.arkatama.id/\">Link</a>",
+      "description": "Aplikasi manajemen pelanggan ISP yang terintegrasi dengan accounting",
+      "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, HighchartsJS"
     }
   ]
 }
