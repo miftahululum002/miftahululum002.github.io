@@ -18,11 +18,11 @@ function getTemplate(index, data) {
 
 function getTemplateSertifikat(index, data) {
   let dateYear = data.year != undefined ? data.year : data.date;
-  let link = "<small>";
+  let link = "";
   data.link.forEach((item, ind) => {
     link += `<a href="${item}" target="_blank">Link ${ind + 1}</a><br>`;
   });
-  link += "</small>";
+  // link += "";
   let template = `<tr>
         <td>${index + 1}.</td>
         <td>${data.name}</td>
