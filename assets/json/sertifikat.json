@@ -3,7 +3,18 @@
     "email": "ulumiftahul06@gmail.com",
     "year": "2024",
     "instagram": "@miftahululum002",
+    "github": "https://github.com/miftahululum002",
+    "gitlab": "https://gitlab.com/miftahululum002",
     "data": [
+        {
+            "name": "<b>Belajar Membuat Aplikasi Back-End untuk Pemula</b> &mdash; Dicoding",
+            "date": "14 Juni 2024",
+            "expired": "14 Juni 2027",
+            "link": [
+                "assets/certificates/sertifikat_course_261_1451925_140624195812.pdf",
+                "https://www.dicoding.com/certificates/72ZDVKEO6ZYW"
+            ]
+        },
         {
             "name": "<b>Belajar Dasar Pemrograman JavaScript</b> &mdash; Dicoding",
             "date": "12 Juni 2024",
