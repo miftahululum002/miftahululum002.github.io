@@ -7,11 +7,20 @@
     "gitlab": "https://gitlab.com/miftahululum002",
     "data": [
         {
+            "name": "<b>Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)</b> &mdash; Dicoding",
+            "date": "14 Juni 2024",
+            "expired": "14 Juni 2027",
+            "link": [
+                "assets/certificates/sertifikat_course_251_1451925_140624210832_miftahululum002.pdf",
+                "https://www.dicoding.com/certificates/ERZR1242OZYV"
+            ]
+        },
+        {
             "name": "<b>Belajar Membuat Aplikasi Back-End untuk Pemula</b> &mdash; Dicoding",
             "date": "14 Juni 2024",
             "expired": "14 Juni 2027",
             "link": [
-                "assets/certificates/sertifikat_course_261_1451925_140624195812.pdf",
+                "assets/certificates/sertifikat_course_261_1451925_140624195812_miftahululum002.pdf",
                 "https://www.dicoding.com/certificates/72ZDVKEO6ZYW"
             ]
         },
@@ -20,7 +29,7 @@
             "date": "12 Juni 2024",
             "expired": "12 Juni 2027",
             "link": [
-                "assets/certificates/sertifikat_course_256_1451925_140624173457.pdf",
+                "assets/certificates/sertifikat_course_256_1451925_140624173457_miftahululum002.pdf",
                 "https://www.dicoding.com/certificates/QLZ9768M2P5D"
             ]
         },
