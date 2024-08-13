@@ -7,6 +7,15 @@
   "gitlab": "https://gitlab.com/miftahululum002",
   "data": [
     {
+      "name": "Frontend Dengan TailwindCSS",
+      "shortname": "Web Desain dengan Tailwind CSS",
+      "year": "2024",
+      "image": "assets/img/portfolio/gateway.png",
+      "link": "<a href=\"https://miftahululum002.github.io/portfolio-tailwind//\">Link<\/a>",
+      "description": "",
+      "technology": "TailwindCSS, JavaScript"
+    },
+    {
       "name": "Whatsapp Gateway Multi Session",
       "shortname": "WA Gateway",
       "year": "2024",
