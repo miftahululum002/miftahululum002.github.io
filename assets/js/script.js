@@ -129,7 +129,7 @@ function getGaleriPortofolio(data) {
           <p>Aplikasi Web</p>
           <div class="portfolio-links">
             <a href="${element.image}" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-            <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+            <a href="${element.image}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
         </div>
       </div>
     </div>
