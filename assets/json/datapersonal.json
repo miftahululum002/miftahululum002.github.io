@@ -16,6 +16,15 @@
       "technology": "TailwindCSS, JavaScript"
     },
     {
+      "name": "Pondok Pesantren CMS",
+      "shortname": "Ponpes CMS",
+      "year": "2024",
+      "image": "assets/img/portfolio/ponpes-app.png",
+      "link": "<a href=\"#\">Link<\/a>",
+      "description": "",
+      "technology": "Laravel, MySQL, JQuery, Bootstrap"
+    },
+    {
       "name": "Whatsapp Gateway Multi Session",
       "shortname": "WA Gateway",
       "year": "2024",
