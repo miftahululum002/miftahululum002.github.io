@@ -1,0 +1,6 @@
+.section-title {
+    @apply text-primary text-4xl text-center py-2 font-bold;
+}
+.image-profile {
+    @apply rounded-full border border-primary border-2;
+}
