@@ -13,7 +13,7 @@ type AboutProps = {
 };
 const About = ({ contact }: AboutProps) => {
     return (
-        <div className="container w-full text-base">
+        <div className="container w-full text-base my-10">
             <h2 className="section-title">Tentang Saya</h2>
             <p className="mb-3 text-center">My name is <span className="font-bold">Miftahul Ulum</span> and you can call me <span className="font-bold">'Miftah'</span> or <span className="font-bold">'Ulum'</span>. I'm web developer from Indonesia, more precisely in the Malang City East Java.
             </p>
