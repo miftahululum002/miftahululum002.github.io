@@ -2,5 +2,15 @@
     @apply text-primary text-4xl text-center py-2 font-bold;
 }
 .image-profile {
-    @apply rounded-full border border-primary border-2;
+    @apply rounded-full border-primary border-2;
+}
+.border-full {
+    @apply border border-primary py-1;
+}
+.border-top-bottom {
+    @apply border-t border-b border-primary;
+}
+
+.border-top-bottom:hover {
+    @apply bg-primary bg-opacity-10;
 }
