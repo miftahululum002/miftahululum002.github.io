@@ -1,22 +1,27 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import './App.css';
 import About from './components/About';
 import Skill from './components/Skill';
+import EducationExperience from './components/EducationExperience';
+import Certificate from './components/Certificate';
+import Portfolio from './components/Portfolio';
 const navigation = [
   { name: 'About Me', href: '#about' },
   { name: 'Skills', href: '#skill' },
-  { name: 'Summary', href: '#' },
-  { name: 'Certificate & Training', href: '#' },
-  { name: 'Portfolio', href: '#' },
+  { name: 'Education & Experience', href: '#summary' },
+  { name: 'Certificate & Training', href: '#certificate' },
+  { name: 'Personal Portfolio', href: '#personal-portfolio' },
+  { name: 'Portfolio', href: '#portfolio' },
   { name: 'Contact Me', href: '#' },
 ]
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const appName = "Miftahul Ulum"
   const contact = {
     phone: "085233551629",
     city: "Malang, East Java, Indonesia",
@@ -25,41 +30,49 @@ export default function Example() {
     freelance: "Available",
     interest: "Information Technology"
   }
-  const skills = [{ name: "Web Programming", value: 90, category: "teknis", unit: "%" },
-  { name: "HTML", value: 100, category: "teknis", unit: "%" },
-  { name: "CSS", value: 90, category: "teknis", unit: "%" },
-  { name: "Tailwind CSS", value: 80, category: "teknis", unit: "%" },
-  { name: "Node JS", value: 80, category: "teknis", unit: "%" },
-  { name: "React JS", value: 80, category: "teknis", unit: "%" },
-  { name: "Golang", value: 80, category: "teknis", unit: "%" },
-  { name: "SASS", value: 80, category: "teknis", unit: "%" },
-  { name: "PHP", value: 95, category: "teknis", unit: "%" },
-  { name: "Laravel", value: 92, category: "teknis", unit: "%" },
-  { name: "CodeIgniter", value: 90, category: "teknis", unit: "%" },
-  { name: "Yii Framework", value: 80, category: "teknis", unit: "%" },
-  { name: "MySQL", value: 90, category: "teknis", unit: "%" },
-  { name: "Javascript", value: 85, category: "teknis", unit: "%" },
-  { name: "IBM DB2", value: 90, category: "teknis", unit: "%" },
-  { name: "Oracle Database", value: 80, category: "teknis", unit: "%" },
-  { name: "Phyton", value: 80, category: "teknis", unit: "%" },
-  { name: "Django", value: 80, category: "teknis", unit: "%" },
-  { name: "Git", value: 95, category: "teknis", unit: "%" },
-  { name: "Ruby on Rails", value: 80, category: "teknis", unit: "%" },
-  { name: "Komunikasi (Communication)", value: 85, category: "other", unit: "%" },
-  { name: "Manajemen Waktu (Time Management)", value: 90, category: "other", unit: "%" }];
+  const [certificates, setCertificates] = useState([]);
+  const [skills, setSkills] = useState([]);
+  const [portfolios, setPortfolios] = useState([]);
+  const [personalPortfolios, setPersonalPortfolios] = useState([]);
+  useEffect(() => {
+    fetch('./json/certificates.json')
+      .then(response => response.json())
+      .then(data => setCertificates(data.data))
+      .catch(error => console.error('Error loading JSON:', error));
+  }, []);
+
+  useEffect(() => {
+    fetch('./json/skills.json')
+      .then(response => response.json())
+      .then(data => setSkills(data.data))
+      .catch(error => console.error('Error loading JSON:', error));
+  }, []);
+  useEffect(() => {
+    fetch('./json/portfolios.json')
+      .then(response => response.json())
+      .then(data => setPortfolios(data.data))
+      .catch(error => console.error('Error loading JSON:', error));
+  }, []);
+  useEffect(() => {
+    fetch('./json/personal_portfolios.json')
+      .then(response => response.json())
+      .then(data => setPersonalPortfolios(data.data))
+      .catch(error => console.error('Error loading JSON:', error));
+  }, []);
+
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Miftahul Ulum</span>
+            <a href="#" className="-m-1.5 p-1.5 font-bold text-xl">
+              <span className="sr-only">{appName}</span>
               {/* <img
                 alt=""
                 src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
                 className="h-8 w-auto"
               /> */}
-              Miftahul Ulum
+              {appName} Sia
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -89,14 +102,14 @@ export default function Example() {
           <div className="fixed inset-0 z-50" />
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Miftahul Ulum</span>
+              <a href="#" className="-m-1.5 p-1.5 font-bold">
+                <span className="sr-only">{appName}</span>
                 {/* <img
                   alt=""
                   src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
                   className="h-8 w-auto"
                 /> */}
-                Miftahul Ulum
+                {appName}
               </a>
               <button
                 type="button"
@@ -195,6 +208,18 @@ export default function Example() {
       </div>
       <div id="skill">
         <Skill skills={skills} />
+      </div>
+      <div id="summary">
+        <EducationExperience />
+      </div>
+      <div id="certificate">
+        <Certificate certificates={certificates} />
+      </div>
+      <div id="personal-portfolio">
+        <Portfolio portfolios={personalPortfolios} title={"Personal Portfolio"} />
+      </div>
+      <div id="portfolio">
+        <Portfolio portfolios={portfolios} title={"Portfolio"} />
       </div>
     </div>
   )
