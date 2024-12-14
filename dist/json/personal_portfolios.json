@@ -1,0 +1,109 @@
+{
+  "author": "Miftahul Ulum, S.Pd.",
+  "email": "ulumiftahul06@gmail.com",
+  "year": "2023",
+  "instagram": "@miftahululum002",
+  "github": "https://github.com/miftahululum002",
+  "gitlab": "https://gitlab.com/miftahululum002",
+  "data": [
+    {
+      "name": "Frontend Dengan TailwindCSS",
+      "shortname": "Web Desain dengan Tailwind CSS",
+      "year": "2024",
+      "image": "assets/img/portfolio/tailwindcss.png",
+      "link": "<a href=\"https://miftahululum002.github.io/portfolio-tailwind//\">Link<\/a>",
+      "description": "",
+      "technology": "TailwindCSS, JavaScript"
+    },
+    {
+      "name": "Pondok Pesantren CMS",
+      "shortname": "Ponpes CMS",
+      "year": "2024",
+      "image": "assets/img/portfolio/ponpes-app.png",
+      "link": "<a href=\"#\">Link<\/a>",
+      "description": "",
+      "technology": "Laravel, MySQL, JQuery, Bootstrap"
+    },
+    {
+      "name": "Whatsapp Gateway Multi Session",
+      "shortname": "WA Gateway",
+      "year": "2024",
+      "image": "assets/img/portfolio/gateway.png",
+      "link": "<a href=\"https://gateway.codopro.id/\">Link<\/a>",
+      "description": "",
+      "technology": "Laravel, MySQL, NodeJS, JQuery, Bootstrap"
+    },
+    {
+      "name": "Aplikasi Manajamen Arsip Surat dan Disposisi",
+      "shortname": "SIM Surat",
+      "year": "2024",
+      "image": "assets/img/portfolio/surat.png",
+      "link": "<a href=\"#\">Link<\/a>",
+      "description": "",
+      "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
+    },
+    {
+      "name": "Aplikasi Wa Gateway Berbasis Web",
+      "shortname": "Gateway API",
+      "year": "2023",
+      "image": "assets/img/portfolio/gate-api.png",
+      "link": "<a href=\"#\">Link<\/a>",
+      "description": "",
+      "technology": "Laravel, MySQL, NodeJS, JQuery, Bootstrap"
+    },
+    {
+      "name": "Sistem Payroll Manajement dan Notifikasi Via Whatsapp",
+      "shortname": "Payroll Notification",
+      "year": "2023",
+      "image": "assets/img/portfolio/notifikator.png",
+      "link": "<a href=\"#\">Link<\/a>",
+      "description": "",
+      "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
+    },
+    {
+      "name": "Aplikasi Point Of Sales (POS) Untuk Penjualan Ayam dan Pakan",
+      "shortname": "Point Of Sales",
+      "year": "2023",
+      "image": "assets/img/portfolio/bgskin.png",
+      "link": "<a href=\"#\">Link<\/a>",
+      "description": "",
+      "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
+    },
+    {
+      "name": "Aplikasi Analisis Klinis Kompetensi Guru",
+      "shortname": "Analisis Klinis Kompetensi Guru",
+      "year": "2023",
+      "image": "assets/img/portfolio/untitled.png",
+      "link": "<a href=\"#\">Link<\/a>",
+      "description": "",
+      "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
+    },
+    {
+      "name": "Aplikasi Analisis Kebutuhan Gizi dan Vitamin",
+      "shortname": "Indoned",
+      "year": "2022",
+      "image": "assets/img/portfolio/untitled.png",
+      "link": "<a href=\"#\">Link<\/a>",
+      "description": "Aplikasi Analisis Kebutuhan Gizi dan Vitamin",
+      "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
+    },
+    {
+      "name": "Aplikasi Pengurusan Izin Khusus Sie Keamanan Dan Ketertiban PP Miftahul Huda Malang",
+      "shortname": "Sistem iKhusus",
+      "year": "2022",
+      "image": "assets/img/portfolio/ikhusus.png",
+      "link": "<a target=_blank\" href=\"https://aman.gadingpesantren.id/public/\">Link</a>",
+      "description": "",
+      "technology": "Laravel, MySQL, JQuery, Bootstrap"
+    },
+    {
+      "name": "Aplikasi Penerimaan Peserta Didik Baru (PPDB) di MAN 2 MALANG (ex MAN TUREN)",
+      "shortname": "PPDB MAN 2 Malang",
+      "year": "2019",
+      "image": "assets/img/portfolio/untitled.png",
+      "link": "<a href=\"#\">Link<\/a>",
+      "description": "",
+      "technology": "Laravel, MySQL, NodeJS, JQuery, Bootstrap"
+    }
+  ]
+}
