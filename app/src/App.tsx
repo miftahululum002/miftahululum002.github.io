@@ -9,18 +9,19 @@ import Skill from './components/Skill';
 import EducationExperience from './components/EducationExperience';
 import Certificate from './components/Certificate';
 import Portfolio from './components/Portfolio';
-
+import { useTranslation } from 'react-i18next';
 const navigation = [
-  { name: 'About Me', href: '#about' },
-  { name: 'Skills', href: '#skill' },
-  { name: 'Education & Experience', href: '#summary' },
-  { name: 'Certificate & Training', href: '#certificate' },
-  { name: 'Personal Portfolio', href: '#personal-portfolio' },
-  { name: 'Portfolio', href: '#portfolio' },
-  { name: 'Contact Me', href: '#' },
+  { name: 'about me', href: '#about' },
+  { name: 'skills', href: '#skill' },
+  { name: 'education & experience', href: '#summary' },
+  { name: 'certificate & training', href: '#certificate' },
+  { name: 'personal portfolio', href: '#personal-portfolio' },
+  { name: 'portfolio', href: '#portfolio' },
+  { name: 'contact me', href: '#' },
 ]
 
-export default function Example() {
+export default function App() {
+  const { t } = useTranslation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false);
   useEffect(() => {
@@ -41,7 +42,7 @@ export default function Example() {
   const contact = {
     phone: "085233551629",
     city: "Malang, East Java, Indonesia",
-    degree: "Bachelor / Sarjana",
+    degree: "bachelor",
     email: "ulumiftahul06@gmail.com",
     freelance: "Available",
     interest: "Information Technology"
@@ -106,7 +107,7 @@ export default function Example() {
             <div className="hidden lg:flex lg:gap-x-12">
               {navigation.map((item) => (
                 <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
-                  {item.name}
+                  {t(`${item.name}`)}
                 </a>
               ))}
 
@@ -235,10 +236,10 @@ export default function Example() {
           <Certificate certificates={certificates} />
         </div>
         <div id="personal-portfolio">
-          <Portfolio portfolios={personalPortfolios} title={"Personal Portfolio"} />
+          <Portfolio portfolios={personalPortfolios} title={t('personal portfolio')} />
         </div>
         <div id="portfolio">
-          <Portfolio portfolios={portfolios} title={"Portfolio"} />
+          <Portfolio portfolios={portfolios} title={t('portfolio')} />
         </div>
       </div>
       <footer className="bg-primary pt-24 pb-12">
@@ -250,10 +251,10 @@ export default function Example() {
               </h2>
               <p>
                 <a href={`mailto:#`}>
-                  Email
+                  {t('email')}
                 </a>
               </p>
-              <p>Address</p>
+              <p>{t('address')}</p>
             </div>
             <div className="w-full px-4 mb-12 md:w-1/2">
               <h3 className="font-semibold text-xl text-white mb-5">
