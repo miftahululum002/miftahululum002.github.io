@@ -21,5 +21,8 @@
     "year": "Year",
     "description": "Description",
     "technology": "Technology",
-    "name": "Name"
+    "name": "Name",
+    "file": "File",
+    "date": "Date",
+    "expired date": "Expired Date"
 }

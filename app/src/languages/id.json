@@ -21,5 +21,8 @@
     "year": "Tahun",
     "description": "Deskripsi",
     "technology": "Teknologi",
-    "name": "Nama"
+    "name": "Nama",
+    "file": "File",
+    "date": "Tanggal",
+    "expired date": "Tanggal Berakhir"
 }
