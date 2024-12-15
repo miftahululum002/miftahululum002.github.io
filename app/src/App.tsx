@@ -9,7 +9,9 @@ import Skill from './components/Skill';
 import EducationExperience from './components/EducationExperience';
 import Certificate from './components/Certificate';
 import Portfolio from './components/Portfolio';
+import BackToTop from './components/BackToTop';
 import { useTranslation } from 'react-i18next';
+import { ReactTyped } from "react-typed";
 const navigation = [
   { name: 'about me', href: '#about' },
   { name: 'skills', href: '#skill' },
@@ -20,6 +22,9 @@ const navigation = [
   { name: 'contact me', href: '#' },
 ]
 
+const interests = [
+  "Information Technology", "Programming", "Web development", "Backend development"
+];
 export default function App() {
   const { t } = useTranslation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -48,6 +53,8 @@ export default function App() {
     interest: "Information Technology"
   }
   const [certificates, setCertificates] = useState([]);
+  const [educations, setEducations] = useState([]);
+  const [experiences, setExperiences] = useState([]);
   const [skills, setSkills] = useState([]);
   const [portfolios, setPortfolios] = useState([]);
   const [personalPortfolios, setPersonalPortfolios] = useState([]);
@@ -62,6 +69,18 @@ export default function App() {
     fetch('./json/skills.json')
       .then(response => response.json())
       .then(data => setSkills(data.data))
+      .catch(error => console.error('Error loading JSON:', error));
+  }, []);
+  useEffect(() => {
+    fetch('./json/educations.json')
+      .then(response => response.json())
+      .then(data => setEducations(data.data))
+      .catch(error => console.error('Error loading JSON:', error));
+  }, []);
+  useEffect(() => {
+    fetch('./json/experiences.json')
+      .then(response => response.json())
+      .then(data => setExperiences(data.data))
       .catch(error => console.error('Error loading JSON:', error));
   }, []);
   useEffect(() => {
@@ -182,21 +201,29 @@ export default function App() {
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                Announcing our next round of funding.{' '}
-                <a href="#" className="font-semibold text-indigo-600">
+                My name is <span className="font-bold">{appName}</span>.{' '}
+                {/* <a href="#about" className="font-semibold text-primary">
                   <span aria-hidden="true" className="absolute inset-0" />
                   Read more <span aria-hidden="true">&rarr;</span>
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="text-center">
-              <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
-                Data to enrich your online business
-              </h1>
               <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat.
+                I'm interest with
               </p>
+              <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
+                <ReactTyped
+                  strings={interests}
+                  typeSpeed={100}
+                  backSpeed={70}
+                  attr="placeholder"
+                  loop
+                >
+                  <input type="text" className="text-center bg-transparent focus:border-0 focus:border-transparent" />
+                </ReactTyped>
+              </h1>
+
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"
@@ -230,7 +257,7 @@ export default function App() {
           <Skill skills={skills} />
         </div>
         <div id="summary">
-          <EducationExperience />
+          <EducationExperience educations={educations} experiences={experiences} />
         </div>
         <div id="certificate">
           <Certificate certificates={certificates} />
@@ -298,6 +325,8 @@ export default function App() {
       >
         <span className="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
       </a>
+
+      <BackToTop />
     </>
 
   )
