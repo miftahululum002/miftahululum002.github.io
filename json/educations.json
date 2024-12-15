@@ -1,187 +1,63 @@
 {
     "author": "Miftahul Ulum, S.Pd.",
     "email": "ulumiftahul06@gmail.com",
-    "year": "2024",
+    "year": "2025",
     "instagram": "@miftahululum002",
     "github": "https://github.com/miftahululum002",
     "gitlab": "https://gitlab.com/miftahululum002",
     "data": [
         {
-            "name": "<b>Belajar Machine Learning untuk Pemula</b> &mdash; Dicoding",
-            "date": "15 Juni 2024",
-            "expired": "15 Juni 2027",
-            "link": [
-                "/certificates/sertifikat_course_184_1451925_150624183926_miftahululum002.pdf",
-                "https://www.dicoding.com/certificates/4EXGQ392QZRL"
+            "name": "Brawijaya University — Information Technology Education",
+            "description": "Faculty of Computer Science",
+            "year_start": "2017",
+            "year_end": "2021",
+            "details": [
+                "Faculty of Computer Science of Brawijaya University, Malang"
             ]
         },
         {
-            "name": "<b>Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)</b> &mdash; Dicoding",
-            "date": "14 Juni 2024",
-            "expired": "14 Juni 2027",
-            "link": [
-                "/certificates/sertifikat_course_251_1451925_140624210832_miftahululum002.pdf",
-                "https://www.dicoding.com/certificates/ERZR1242OZYV"
+            "description": "Pendidikan Non-Formal",
+            "name": "PP Miftahul Huda",
+            "year_start": "2017",
+            "year_end": "2023",
+            "details": [
+                "Pondok Pesantren Miftahul Huda (Gading), Klojen, Kota Malang"
             ]
         },
         {
-            "name": "<b>Belajar Membuat Aplikasi Back-End untuk Pemula</b> &mdash; Dicoding",
-            "date": "14 Juni 2024",
-            "expired": "14 Juni 2027",
-            "link": [
-                "/certificates/sertifikat_course_261_1451925_140624195812_miftahululum002.pdf",
-                "https://www.dicoding.com/certificates/72ZDVKEO6ZYW"
+            "name": "MAN Turen",
+            "description": "MAN Turen - MAN 2 Malang",
+            "year_start": "2013",
+            "year_end": "2016",
+            "details": [
+                "Islamic State High School, Turen, Malang"
             ]
         },
         {
-            "name": "<b>Belajar Dasar Pemrograman JavaScript</b> &mdash; Dicoding",
-            "date": "12 Juni 2024",
-            "expired": "12 Juni 2027",
-            "link": [
-                "/certificates/sertifikat_course_256_1451925_140624173457_miftahululum002.pdf",
-                "https://www.dicoding.com/certificates/QLZ9768M2P5D"
+            "description": "Pendidikan Non-Formal",
+            "name": "PP Darul Huda",
+            "year_start": "2005",
+            "year_end": "2013",
+            "details": [
+                "Pondok Pesantren Darul Huda, Codo - Wajak, Kab. Malang"
             ]
         },
         {
-            "name": "<b>Memulai Pemrograman dengan Python</b> &mdash; Dicoding",
-            "date": "12 Februari 2024",
-            "expired": "12 Februari 2027",
-            "link": [
-                "/certificates/sertifikat_course_86_1451925_080324215930_miftahululum002.pdf",
-                "https://www.dicoding.com/certificates/KEXL8K9Y4ZG2"
+            "name": "MTs Darul Huda",
+            "description": "Madrasah Tsanawiyah Darul Huda",
+            "year_start": "2009",
+            "year_end": "2013",
+            "details": [
+                "Junior High School, Wajak, Malang"
             ]
         },
         {
-            "name": "<b>Belajar Dasar Visualisasi Data</b> &mdash; Dicoding",
-            "date": "07 Februari 2024",
-            "expired": "07 Februari 2027",
-            "link": [
-                "/certificates/sertifikat_course_177_1451925_080324220103_miftahululum002.pdf",
-                "https://www.dicoding.com/certificates/JMZVDRN4JZN9"
-            ]
-        },
-        {
-            "name": "Sertifikasi Kompetensi <b>Senior Programmer</b> &mdash; BNSP",
-            "date": "16 Februari 2023",
-            "expired": "16 Februari 2026",
-            "link": [
-                "/certificates/senior-programmer_miftahululum002.pdf",
-                "https://sertifikasi.lspdigital.id/sertifikasi/cetak_sertifikat/67286"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan Program Profesional Academy</b> &mdash; Digital Talent Scholarship 2021 Pada Skema \"Ruby\" sejumlah 77 Jam Pelatihan",
-            "date": "25 Agustus - 25 September 2021",
-            "expired": "-",
-            "link": [
-                "/certificates/proa-ruby_miftahululum.pdf"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan Ruby</b> &mdash; Progate",
-            "date": "23 Januari 2021",
-            "expired": "-",
-            "link": [
-                "/certificates/ruby_miftahululum002.pdf",
-                "https://progate.com/course_certificate/a21360b2qlkmux"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan React</b> &mdash; Progate",
-            "date": "23 Januari 2021",
-            "expired": "-",
-            "link": [
-                "/certificates/react_miftahululum002.pdf",
-                "https://progate.com/course_certificate/545ce45eqndkn2"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan Javascript</b> &mdash; Progate",
-            "date": "23 Januari 2021",
-            "expired": "-",
-            "link": [
-                "/certificates/javascript_miftahululum002.pdf",
-                "https://progate.com/course_certificate/44f4cf96qndmmx"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan Python</b> &mdash; Progate",
-            "date": "20 Januari 2021",
-            "expired": "-",
-            "link": [
-                "/certificates/python_miftahululum002.pdf",
-                "https://progate.com/course_certificate/06071582qlmm9h"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan Node JS</b> &mdash; Progate",
-            "date": "20 Januari 2021",
-            "expired": "-",
-            "link": [
-                "/certificates/nodejs_miftahululum002.pdf",
-                "https://progate.com/course_certificate/17f3a49eqn7ua0"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan HTML & CSS</b> &mdash; Progate",
-            "date": "20 Desember 2020",
-            "expired": "-",
-            "link": [
-                "/certificates/html_miftahululum002.pdf",
-                "https://progate.com/course_certificate/09cb2ad2qlmtpi"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan SQL</b> &mdash; Progate",
-            "date": "19 Desember 2020",
-            "expired": "-",
-            "link": [
-                "/certificates/sql_miftahululum002.pdf",
-                "https://progate.com/course_certificate/bd2a4dc3qlkjwj"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan PHP</b> &mdash; Progate",
-            "date": "19 Desember 2020",
-            "expired": "-",
-            "link": [
-                "/certificates/php_miftahululum002.pdf",
-                "https://progate.com/course_certificate/7cd3fa9aqlkjfv"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan Java</b> &mdash; Progate",
-            "date": "13 Desember 2020",
-            "expired": "-",
-            "link": [
-                "/certificates/java_miftahululum002.pdf",
-                "https://progate.com/course_certificate/6f70f22aql9wrh"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan Git</b> &mdash; Progate",
-            "date": "12 Desember 2020",
-            "expired": "-",
-            "link": [
-                "/certificates/git_miftahululum002.pdf",
-                "https://progate.com/course_certificate/c9f11200ql7f0q"
-            ]
-        },
-        {
-            "name": "<b>Pelatihan Command Line (Unix)</b> &mdash; Progate",
-            "date": "12 Desember 2020",
-            "expired": "-",
-            "link": [
-                "/certificates/cliunix_miftahululum002.pdf",
-                "https://progate.com/course_certificate/8fc78d14ql7g1x"
-            ]
-        },
-        {
-            "name": "<b>Microsoft Office Desktop Application</b> &mdash; Universitas Brawijaya - Trust Training Partners - Microsoft Learning Partners",
-            "date": "25 Juni 2020",
-            "expired": "-",
-            "link": [
-                "/certificates/sertifikasi-it_miftahululum002.JPG"
+            "name": "MI Darul Huda",
+            "description": "Madrasah Ibtidaiyah Darul Huda",
+            "year_start": "2004",
+            "year_end": "2009",
+            "details": [
+                "Primary School, Wajak, Malang"
             ]
         }
     ]
