@@ -4,9 +4,9 @@ export default function BackToTop() {
     const [isVisible, setIsVisible] = useState(false);
     // Fungsi untuk menangani scroll
     const handleScroll = () => {
-        const scrollTop =
-            window.pageYOffset || document.documentElement.scrollTop;
-        setIsVisible(scrollTop > 300); // Tampilkan tombol jika scroll lebih dari 300px
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+        setIsVisible(scrollTop > 300);
+        // Tampilkan tombol jika scroll lebih dari 300px
     };
 
     // Fungsi untuk scroll ke atas
