@@ -12,19 +12,20 @@ interface PortfolioProps {
         description: string;
     }>;
 }
-
+import { useTranslation } from 'react-i18next';
 export default function Portfolio({ portfolios, title }: PortfolioProps) {
+    const { t } = useTranslation();
     return (
         <div className="container w-full text-sm my-10">
             <h2 className="section-title">{title}</h2>
             <table className="w-full border-collapse border-primary">
                 <thead className="py-4">
                     <tr className="border-top-bottom">
-                        <th className="w-1/12 py-3">No</th>
-                        <th className="w-1/2 py-3 text-start">Project</th>
-                        <th className="w-1/5 py-3 text-start">Description</th>
-                        <th className="w-1/12 py-3 text-start">Technology</th>
-                        <th className="w-1/12 py-3 text-start">Year</th>
+                        <th className="w-1/12 py-3">#</th>
+                        <th className="w-1/2 py-3 text-start">{t('name')}</th>
+                        <th className="w-1/5 py-3 text-start">{t('description')}</th>
+                        <th className="w-1/12 py-3 text-start">{t('technology')}</th>
+                        <th className="w-1/12 py-3 text-start">{t('year')}</th>
                         <th className="w-1/12 py-3 text-start">Link</th>
                     </tr>
                 </thead>
