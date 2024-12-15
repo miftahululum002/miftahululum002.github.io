@@ -1,0 +1,114 @@
+{
+    "author": "Miftahul Ulum, S.Pd.",
+    "email": "ulumiftahul06@gmail.com",
+    "year": "2025",
+    "instagram": "@miftahululum002",
+    "github": "https://github.com/miftahululum002",
+    "gitlab": "https://gitlab.com/miftahululum002",
+    "data": [
+        {
+            "name": "Freelance Programmer",
+            "description": "Freelance Web Developer",
+            "year_start": "2024",
+            "year_end": "Present",
+            "details": [
+                "Digital Services"
+            ]
+        },
+        {
+            "name": "Senior Programmer",
+            "description": "SR. Programmer",
+            "year_start": "2023",
+            "year_end": "2024",
+            "details": [
+                "PT. Arkatama Multi Solusindo"
+            ]
+        },
+        {
+            "name": "Junior Web Developer",
+            "description": "JR. Web Developer",
+            "year_start": "2022",
+            "year_end": "2023",
+            "details": [
+                "PT. Arkatama Multi Solusindo"
+            ]
+        },
+        {
+            "name": "Junior Programmer",
+            "description": "JR. Programmer",
+            "year_start": "2021",
+            "year_end": "2022",
+            "details": [
+                "PT. Arkatama Multi Solusindo"
+            ]
+        },
+        {
+            "name": "Magang Web Developer",
+            "description": "Internship Web Developer",
+            "year_start": "2021",
+            "year_end": "2021",
+            "details": [
+                "Institut Teknologi Sains dan Kesehatan (ITSK) RS dr. Soepraoen Malang"
+            ]
+        },
+        {
+            "name": "Guru TKJ SMKN 3 Malang (Internship/PPL",
+            "description": "SMKN 3 Malang",
+            "year_start": "2020",
+            "year_end": "2020",
+            "details": [
+                "Administrasi Jaringan",
+                "Teknologi Internet Berbasis WAN"
+            ]
+        },
+        {
+            "name": "Tutor Sistem Basis Data",
+            "description": "Tutor Sistem Basis Data",
+            "year_start": "2019",
+            "year_end": "2019",
+            "details": [
+                "Dasar Basis Data",
+                "Desain Basis Data",
+                "Pemodelan Basis Data",
+                "Pemrograman Basis Data"
+            ]
+        },
+        {
+            "name": "Tutor Microsoft Office",
+            "description": "Tutor Microsoft Office",
+            "year_start": "2018",
+            "year_end": "2018",
+            "details": [
+                "Ms Word",
+                "Ms Excel",
+                "Ms Powerpoint"
+            ]
+        },
+        {
+            "name": "Asisten Praktikum",
+            "description": "Faculty of Computer Science of Brawijaya University, Malang",
+            "year_start": "2018",
+            "year_end": "2021",
+            "details": [
+                "Computer Networking",
+                "Basic Programming (Java)",
+                "Java Programming",
+                "Multi Platform Programming (Flutter)",
+                "Web Programming (PHP)",
+                "Database Programming (MySQL, IBM DB2, Oracle Database)",
+                "Database Administration (IBM DB2)",
+                "Administration System Server (Ubuntu/CentOS)"
+            ]
+        },
+        {
+            "name": "Staf Tata Usaha",
+            "description": "MAN Turen",
+            "year_start": "2016",
+            "year_end": "2017",
+            "details": [
+                "Web Administrator",
+                "Pusat Data Dan Informasi"
+            ]
+        }
+    ]
+}
