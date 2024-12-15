@@ -53,6 +53,8 @@ export default function App() {
     interest: "Information Technology"
   }
   const [certificates, setCertificates] = useState([]);
+  const [educations, setEducations] = useState([]);
+  const [experiences, setExperiences] = useState([]);
   const [skills, setSkills] = useState([]);
   const [portfolios, setPortfolios] = useState([]);
   const [personalPortfolios, setPersonalPortfolios] = useState([]);
@@ -67,6 +69,18 @@ export default function App() {
     fetch('./json/skills.json')
       .then(response => response.json())
       .then(data => setSkills(data.data))
+      .catch(error => console.error('Error loading JSON:', error));
+  }, []);
+  useEffect(() => {
+    fetch('./json/educations.json')
+      .then(response => response.json())
+      .then(data => setEducations(data.data))
+      .catch(error => console.error('Error loading JSON:', error));
+  }, []);
+  useEffect(() => {
+    fetch('./json/experiences.json')
+      .then(response => response.json())
+      .then(data => setExperiences(data.data))
       .catch(error => console.error('Error loading JSON:', error));
   }, []);
   useEffect(() => {
@@ -243,7 +257,7 @@ export default function App() {
           <Skill skills={skills} />
         </div>
         <div id="summary">
-          <EducationExperience />
+          <EducationExperience educations={educations} experiences={experiences} />
         </div>
         <div id="certificate">
           <Certificate certificates={certificates} />
