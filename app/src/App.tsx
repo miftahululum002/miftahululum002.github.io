@@ -9,6 +9,7 @@ import Skill from './components/Skill';
 import EducationExperience from './components/EducationExperience';
 import Certificate from './components/Certificate';
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
 import { useTranslation } from 'react-i18next';
 import { ReactTyped } from "react-typed";
@@ -19,7 +20,7 @@ const navigation = [
   { name: 'certificate & training', href: '#certificate' },
   { name: 'personal portfolio', href: '#personal-portfolio' },
   { name: 'portfolio', href: '#portfolio' },
-  { name: 'contact me', href: '#' },
+  { name: 'contact me', href: '#contact' },
 ]
 
 const interests = [
@@ -125,7 +126,7 @@ export default function App() {
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
               {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
+                <a key={item.name} href={item.href} className="menu text-sm/6 font-semibold text-gray-900">
                   {t(`${item.name}`)}
                 </a>
               ))}
@@ -195,7 +196,7 @@ export default function App() {
                 clipPath:
                   'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
               }}
-              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#341d50] to-[#1004bf] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             />
           </div>
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
@@ -269,55 +270,7 @@ export default function App() {
           <Portfolio portfolios={portfolios} title={t('portfolio')} />
         </div>
       </div>
-      <footer className="bg-primary pt-24 pb-12">
-        <div className="container">
-          <div className="flex flex-wrap">
-            <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/2">
-              <h2 className="font-bold text-4xl text-white mb-5">
-                {appName}
-              </h2>
-              <p>
-                <a href={`mailto:#`}>
-                  {t('email')}
-                </a>
-              </p>
-              <p>{t('address')}</p>
-            </div>
-            <div className="w-full px-4 mb-12 md:w-1/2">
-              <h3 className="font-semibold text-xl text-white mb-5">
-                Kategori Tulisan
-              </h3>
-              <ul className="text-slate-300">
-
-              </ul>
-            </div>
-          </div>
-          <div className="w-full pt-10 border-t border-slate-700">
-            <div className="flex items-center justify-center mb-5">
-              {/* <SectionSocialLink /> */}
-            </div>
-            <p className="font-medium text-xs text-slate-500 text-center">
-              Dibuat dengan{" "}
-              <span className="text-pink-500">❤️</span> oleh{" "}
-              <a
-                href="#"
-                target="_blank"
-                className="text-bold text-primary"
-              >
-                {appName}
-              </a>
-              , menggunakan{" "}
-              <a
-                href="https://tailwindcss.com"
-                target="_blank"
-                className="font-bold text-sky-500"
-              >
-                tailwind CSS
-              </a>
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer appname={appName} />
       <a
         href="#header"
         className="fixed hidden justify-center items-center z-[9999] bottom-4 right-4 p-4 h-14 w-14 bg-primary rounded-full hover:animate-pulse"

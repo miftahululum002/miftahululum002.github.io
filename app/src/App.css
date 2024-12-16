@@ -24,6 +24,8 @@
 }
 
 .header.transparent {
-    @apply bg-primary bg-opacity-80;
-    /* background-color:  rgba(255, 255, 255, 0.8); */
+    @apply bg-dark bg-opacity-90 text-white;
+}
+.header.transparent .menu {
+    @apply text-white;
 }
