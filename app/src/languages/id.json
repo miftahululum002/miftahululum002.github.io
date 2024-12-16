@@ -6,10 +6,11 @@
     "skills": "Skill",
     "education": "Pendidikan",
     "education & experience": "Pendidikan & Pengalaman",
+    "certification": "Sertifikasi",
     "certificate": "Sertifikasi",
     "certificates": "Sertifikasi",
     "certificate & training": "Sertifikasi & Pelatihan",
-    "personal portfolio": "Personal Pribadi",
+    "personal portfolio": "Portfolio Pribadi",
     "portfolio": "Portofolio",
     "contact me": "Hubungi Saya",
     "city": "Kota",
@@ -21,5 +22,9 @@
     "year": "Tahun",
     "description": "Deskripsi",
     "technology": "Teknologi",
-    "name": "Nama"
+    "name": "Nama",
+    "file": "File",
+    "date": "Tanggal",
+    "expired date": "Tanggal Berakhir",
+    "skills and competencies": "Skill dan Kompetensi"
 }

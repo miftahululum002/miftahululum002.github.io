@@ -1,4 +1,5 @@
 'use client'
+import { useTranslation } from 'react-i18next';
 interface CertificateProps {
     certificates: Array<{
         id: number;
@@ -10,17 +11,18 @@ interface CertificateProps {
 }
 
 export default function Certificate({ certificates }: CertificateProps) {
+    const { t } = useTranslation();
     return (
         <div className="container w-full text-sm my-10">
             <h2 className="section-title">Pelatihan dan Sertifikasi</h2>
             <table className="w-full border-collapse border-primary">
                 <thead className="py-4">
                     <tr className="border-top-bottom">
-                        <th className="w-1/12 py-3">No</th>
-                        <th className="w-1/2 py-3 text-start">Name</th>
-                        <th className="w-1/5 py-3 text-start">Date</th>
-                        <th className="w-1/12 py-3 text-start">Expired Date</th>
-                        <th className="w-1/12 py-3 text-start">Certificate</th>
+                        <th className="w-1/12 py-3">#</th>
+                        <th className="w-1/2 py-3 text-start">{t('name')}</th>
+                        <th className="w-1/5 py-3 text-start">{t('date')}</th>
+                        <th className="w-1/12 py-3 text-start">{t('expired date')}</th>
+                        <th className="w-1/12 py-3 text-center">{t('file')}</th>
                     </tr>
                 </thead>
                 <tbody>

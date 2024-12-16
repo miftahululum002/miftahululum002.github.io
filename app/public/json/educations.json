@@ -7,6 +7,15 @@
     "gitlab": "https://gitlab.com/miftahululum002",
     "data": [
         {
+            "name": "Universitas Negeri Malang - Pendidikan Profesi Guru",
+            "description": "Sekolah Pascasarjana",
+            "year_start": "2024",
+            "year_end": "2024",
+            "details": [
+                "Pendidikan Profesi Guru, Sekolah Pascasarjana, Universitas Negeri Malang"
+            ]
+        },
+        {
             "name": "Brawijaya University — Information Technology Education",
             "description": "Faculty of Computer Science",
             "year_start": "2017",

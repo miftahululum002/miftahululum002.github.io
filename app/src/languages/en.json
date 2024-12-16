@@ -6,6 +6,7 @@
     "skills": "Skills",
     "education": "Education",
     "education & experience": "Education & Experience",
+    "certification": "Certification",
     "certificate": "Certificate",
     "certificates": "Certificates",
     "certificate & training": "Certificate & Training",
@@ -21,5 +22,9 @@
     "year": "Year",
     "description": "Description",
     "technology": "Technology",
-    "name": "Name"
+    "name": "Name",
+    "file": "File",
+    "date": "Date",
+    "expired date": "Expired Date",
+    "skills and competencies": "Skills and Competencies"
 }

@@ -15,10 +15,12 @@ interface ObjectProps {
         details: string[];
     }>;
 }
+import { useTranslation } from 'react-i18next';
 export default function EducationExperience({ educations, experiences }: ObjectProps) {
+    const { t } = useTranslation();
     return (
         <div className="container my-10">
-            <h2 className="section-title">Pendidikan dan Pengalaman</h2>
+            <h2 className="section-title">{t('education & experience')}</h2>
             <div className="flex">
                 <div className="w-1/2">
                     <div className="-my-6">
