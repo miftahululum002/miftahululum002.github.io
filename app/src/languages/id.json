@@ -10,7 +10,7 @@
     "certificate": "Sertifikasi",
     "certificates": "Sertifikasi",
     "certificate & training": "Sertifikasi & Pelatihan",
-    "personal portfolio": "Personal Pribadi",
+    "personal portfolio": "Portfolio Pribadi",
     "portfolio": "Portofolio",
     "contact me": "Hubungi Saya",
     "city": "Kota",
@@ -25,5 +25,6 @@
     "name": "Nama",
     "file": "File",
     "date": "Tanggal",
-    "expired date": "Tanggal Berakhir"
+    "expired date": "Tanggal Berakhir",
+    "skills and competencies": "Skill dan Kompetensi"
 }
