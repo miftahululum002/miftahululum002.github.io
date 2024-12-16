@@ -1,5 +1,4 @@
-import React from "react";
-
+'use client'
 interface FooterProps {
     appname: string;
 }
