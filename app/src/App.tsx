@@ -11,22 +11,25 @@ import Certificate from './components/Certificate';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
-import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './components/LanguageSwitcher';
 import { ReactTyped } from "react-typed";
+import { translate } from './helpers/lang';
+import { useTranslation } from 'react-i18next';
 const navigation = [
-  { name: 'about me', href: '#about' },
+  { name: 'about_me', href: '#about' },
   { name: 'skills', href: '#skill' },
-  { name: 'education & experience', href: '#summary' },
-  { name: 'certificate & training', href: '#certificate' },
-  { name: 'personal portfolio', href: '#personal-portfolio' },
+  { name: 'education_&_experience', href: '#summary' },
+  { name: 'certificate_&_training', href: '#certificate' },
+  { name: 'personal_portfolio', href: '#personal-portfolio' },
   { name: 'portfolio', href: '#portfolio' },
-  { name: 'contact me', href: '#contact' },
+  { name: 'contact_me', href: '#contact' },
 ]
 
 const interests = [
-  "Information Technology", "Programming", "Web development", "Backend development"
+  "Information Technoloy Education", "Information Technology", "Programming", "Web development", "Backend development"
 ];
 export default function App() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { t } = useTranslation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false);
@@ -127,10 +130,10 @@ export default function App() {
             <div className="hidden lg:flex lg:gap-x-12">
               {navigation.map((item) => (
                 <a key={item.name} href={item.href} className="menu text-sm/6 font-semibold text-gray-900">
-                  {t(`${item.name}`)}
+                  {translate(`${item.name}`)}
                 </a>
               ))}
-
+              <LanguageSwitcher mobileMenuOpen={mobileMenuOpen} />
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               {/* <a href="#" className="text-sm/6 font-semibold text-gray-900">
@@ -169,17 +172,18 @@ export default function App() {
                         href={item.href}
                         className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                       >
-                        {item.name}
+                        {translate(item.name)}
                       </a>
                     ))}
                   </div>
-                  <div className="py-6">
+                  <div className="py-2">
                     {/* <a
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                   >
                     Log in
                   </a> */}
+                    <LanguageSwitcher mobileMenuOpen={mobileMenuOpen} />
                   </div>
                 </div>
               </div>
@@ -264,12 +268,12 @@ export default function App() {
           <Certificate certificates={certificates} />
         </div>
         <div id="personal-portfolio">
-          <Portfolio portfolios={personalPortfolios} title={t('personal portfolio')} />
+          <Portfolio portfolios={personalPortfolios} title={translate('personal_portfolio')} />
         </div>
         <div id="portfolio">
-          <Portfolio portfolios={portfolios} title={t('portfolio')} />
+          <Portfolio portfolios={portfolios} title={translate('portfolio')} />
         </div>
-      </div>
+      </div >
       <Footer appname={appName} />
       <a
         href="#header"
