@@ -11,7 +11,7 @@
       "shortname": "Web Desain dengan Tailwind CSS",
       "year": "2024",
       "image": "assets/img/portfolio/tailwindcss.png",
-      "link": "<a href=\"https://miftahululum002.github.io/portfolio-tailwind//\">Link<\/a>",
+      "link": "https://miftahululum002.github.io/portfolio-tailwind",
       "description": "",
       "technology": "TailwindCSS, JavaScript"
     },
@@ -20,7 +20,7 @@
       "shortname": "Ponpes CMS",
       "year": "2024",
       "image": "assets/img/portfolio/ponpes-app.png",
-      "link": "<a href=\"#\">Link<\/a>",
+      "link": "#",
       "description": "",
       "technology": "Laravel, MySQL, JQuery, Bootstrap"
     },
@@ -29,7 +29,7 @@
       "shortname": "WA Gateway",
       "year": "2024",
       "image": "assets/img/portfolio/gateway.png",
-      "link": "<a href=\"https://gateway.codopro.id/\">Link<\/a>",
+      "link": "https://gateway.codopro.id",
       "description": "",
       "technology": "Laravel, MySQL, NodeJS, JQuery, Bootstrap"
     },
@@ -38,7 +38,7 @@
       "shortname": "SIM Surat",
       "year": "2024",
       "image": "assets/img/portfolio/surat.png",
-      "link": "<a href=\"#\">Link<\/a>",
+      "link": "#",
       "description": "",
       "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
     },
@@ -47,7 +47,7 @@
       "shortname": "Gateway API",
       "year": "2023",
       "image": "assets/img/portfolio/gate-api.png",
-      "link": "<a href=\"#\">Link<\/a>",
+      "link": "#",
       "description": "",
       "technology": "Laravel, MySQL, NodeJS, JQuery, Bootstrap"
     },
@@ -56,7 +56,7 @@
       "shortname": "Payroll Notification",
       "year": "2023",
       "image": "assets/img/portfolio/notifikator.png",
-      "link": "<a href=\"#\">Link<\/a>",
+      "link": "#",
       "description": "",
       "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
     },
@@ -65,7 +65,7 @@
       "shortname": "Point Of Sales",
       "year": "2023",
       "image": "assets/img/portfolio/bgskin.png",
-      "link": "<a href=\"#\">Link<\/a>",
+      "link": "#",
       "description": "",
       "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
     },
@@ -74,7 +74,7 @@
       "shortname": "Analisis Klinis Kompetensi Guru",
       "year": "2023",
       "image": "assets/img/portfolio/untitled.png",
-      "link": "<a href=\"#\">Link<\/a>",
+      "link": "#",
       "description": "",
       "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
     },
@@ -83,7 +83,7 @@
       "shortname": "Indoned",
       "year": "2022",
       "image": "assets/img/portfolio/untitled.png",
-      "link": "<a href=\"#\">Link<\/a>",
+      "link": "#",
       "description": "Aplikasi Analisis Kebutuhan Gizi dan Vitamin",
       "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
     },
@@ -92,7 +92,7 @@
       "shortname": "Sistem iKhusus",
       "year": "2022",
       "image": "assets/img/portfolio/ikhusus.png",
-      "link": "<a target=_blank\" href=\"https://aman.gadingpesantren.id/public/\">Link</a>",
+      "link": "https://aman.gadingpesantren.id/public",
       "description": "",
       "technology": "Laravel, MySQL, JQuery, Bootstrap"
     },
@@ -101,7 +101,7 @@
       "shortname": "PPDB MAN 2 Malang",
       "year": "2019",
       "image": "assets/img/portfolio/untitled.png",
-      "link": "<a href=\"#\">Link<\/a>",
+      "link": "#",
       "description": "",
       "technology": "Laravel, MySQL, NodeJS, JQuery, Bootstrap"
     }
