@@ -11,9 +11,8 @@ type Contact = {
 type AboutProps = {
     contact: Contact;
 };
-import { useTranslation } from 'react-i18next';
+import { translate } from '../helpers/lang';
 const About = ({ contact }: AboutProps) => {
-    const { t } = useTranslation();
     return (
         <div className="container w-full text-base my-10">
             <h2 className="section-title">Tentang Saya</h2>
@@ -26,7 +25,7 @@ const About = ({ contact }: AboutProps) => {
                         <img src="./miftahululum.jpeg" className="image-profile my-4 w-full" />
                     </div>
                     <div className="w-3/4 ml-4">
-                        <h3 className="font-bold text-4xl">{t('IT Enthusiast')}</h3>
+                        <h3 className="font-bold text-4xl">{translate('it_enthusiast')}</h3>
                         <p className="text-justify mb-4">
                             I'm familiar with web development. Development website with PHP language. Familiar with the laravel framework, CodeIgniter, NodeJS, ReactJS, VueJS, etc.
                         </p>
@@ -34,12 +33,12 @@ const About = ({ contact }: AboutProps) => {
                             Saya familiar dengan pengembangan website dengan bahasa PHP. Saya familiar juga dengan framework Laravel, Codeigniter, NodeJS, ReactJS, VueJS dan lain-lain.
                         </p>
                         <ul className="list-disc mx-5">
-                            <li><span className="font-bold">{t('phone')}:</span> {contact.phone}</li>
-                            <li><span className="font-bold">{t('city')}:</span> {contact.city}</li>
-                            <li><span className="font-bold">{t('degree')}:</span> {t(`${contact.degree}`)}</li>
-                            <li><span className="font-bold">{t('email')}:</span> {contact.email}</li>
-                            <li><span className="font-bold">{t('freelance')}:</span> {contact.freelance}</li>
-                            <li><span className="font-bold">{t('interest')}:</span> {contact.interest}</li>
+                            <li><span className="font-bold">{translate('phone')}:</span> {contact.phone}</li>
+                            <li><span className="font-bold">{translate('city')}:</span> {contact.city}</li>
+                            <li><span className="font-bold">{translate('degree')}:</span> {translate(`${contact.degree}`)}</li>
+                            <li><span className="font-bold">{translate('email')}:</span> {contact.email}</li>
+                            <li><span className="font-bold">{translate('freelance')}:</span> {contact.freelance}</li>
+                            <li><span className="font-bold">{translate('interest')}:</span> {contact.interest}</li>
                         </ul>
                     </div>
                 </div>

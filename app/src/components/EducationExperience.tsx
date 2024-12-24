@@ -15,12 +15,11 @@ interface ObjectProps {
         details: string[];
     }>;
 }
-import { useTranslation } from 'react-i18next';
+import { translate } from '../helpers/lang';
 export default function EducationExperience({ educations, experiences }: ObjectProps) {
-    const { t } = useTranslation();
     return (
         <div className="container my-10">
-            <h2 className="section-title">{t('education & experience')}</h2>
+            <h2 className="section-title">{translate('education_&_experience')}</h2>
             <div className="flex">
                 <div className="w-1/2">
                     <div className="-my-6">
@@ -33,8 +32,8 @@ export default function EducationExperience({ educations, experiences }: ObjectP
                                 </div>
                                 <div className="text-slate-500">
                                     <ul className="list-none">
-                                        {education.details.map((value) =>
-                                            <li>{value}</li>
+                                        {education.details.map((value, ind) =>
+                                            <li key={`edu-${ind}`}>{value}</li>
                                         )}
                                     </ul>
                                 </div>
@@ -54,8 +53,8 @@ export default function EducationExperience({ educations, experiences }: ObjectP
                                 </div>
                                 <div className="text-slate-500">
                                     <ul className="list-none">
-                                        {experience.details.map((value) =>
-                                            <li>{value}</li>
+                                        {experience.details.map((value, idx) =>
+                                            <li key={`exp-${idx}`}>{value}</li>
                                         )}
                                     </ul>
                                 </div>

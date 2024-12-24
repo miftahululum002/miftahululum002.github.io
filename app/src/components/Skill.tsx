@@ -9,13 +9,14 @@ type Skill = {
 type SkillProps = {
     skills: Skill[];
 };
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
+import { translate } from '../helpers/lang';
 const Skill = ({ skills }: SkillProps) => {
-    const { t } = useTranslation();
+    // const { t } = useTranslation();
     return (
         <>
             <div className="container w-full text-base mt-10">
-                <h2 className="section-title">{t('skills and competencies')}</h2>
+                <h2 className="section-title">{translate('skills_and_competencies')}</h2>
                 <div className="flex">
                     <div className="w-1/2 mx-2">
                         {skills.filter((skill: { value: number; category: string; unit: string; name: string; }) => skill.category === 'teknis')
