@@ -29,7 +29,6 @@ const interests = [
   "Information Technoloy Education", "Information Technology", "Programming", "Web development", "Backend development"
 ];
 export default function App() {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { t } = useTranslation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false);
@@ -130,7 +129,7 @@ export default function App() {
             <div className="hidden lg:flex lg:gap-x-12">
               {navigation.map((item) => (
                 <a key={item.name} href={item.href} className="menu text-sm/6 font-semibold text-gray-900">
-                  {translate(`${item.name}`)}
+                  {t(`${item.name}`)}
                 </a>
               ))}
               <LanguageSwitcher mobileMenuOpen={mobileMenuOpen} />

@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { changeLanguage } from '../helpers/lang';
 
 interface LanguageSwitcherProps {
@@ -53,7 +53,6 @@ export default function LanguageSwitcher({ mobileMenuOpen }: LanguageSwitcherPro
                 </div>
             </div>
         </div>
-
     );
 };
 
