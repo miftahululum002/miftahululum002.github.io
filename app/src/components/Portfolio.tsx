@@ -12,9 +12,8 @@ interface PortfolioProps {
         description: string;
     }>;
 }
-import { useTranslation } from 'react-i18next';
+import { translate } from '../helpers/lang';
 export default function Portfolio({ portfolios, title }: PortfolioProps) {
-    const { t } = useTranslation();
     return (
         <div className="container w-full text-sm my-10">
             <h2 className="section-title">{title}</h2>
@@ -22,11 +21,11 @@ export default function Portfolio({ portfolios, title }: PortfolioProps) {
                 <thead className="py-4">
                     <tr className="border-top-bottom">
                         <th className="w-1/12 py-3">#</th>
-                        <th className="w-1/2 py-3 text-start">{t('name')}</th>
-                        <th className="w-1/5 py-3 text-start">{t('description')}</th>
-                        <th className="w-1/12 py-3 text-start">{t('technology')}</th>
-                        <th className="w-1/12 py-3 text-start">{t('year')}</th>
-                        <th className="w-1/12 py-3 text-start">Link</th>
+                        <th className="w-1/2 py-3 text-start">{translate('name')}</th>
+                        <th className="w-1/5 py-3 text-start">{translate('description')}</th>
+                        <th className="w-1/12 py-3 text-start">{translate('technology')}</th>
+                        <th className="w-1/12 py-3 text-start">{translate('year')}</th>
+                        <th className="w-1/12 py-3 text-start">{translate('link')}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -37,14 +36,13 @@ export default function Portfolio({ portfolios, title }: PortfolioProps) {
                             <td className="font-medium">{portfolio.description}</td>
                             <td className="font-medium">{portfolio.technology}</td>
                             <td className="font-medium">{portfolio.year}</td>
-                            <td className="text-center">
-                                <a className="text-primary font-bold hover:text-secondary" href={portfolio.link} target="_blank">Link</a>
+                            <td><a className="text-primary font-bold hover:text-secondary" href={portfolio.link} target="_blank">{translate('link')}</a>
                             </td>
                         </tr>
                     ))
                     }
                 </tbody>
             </table>
-        </div>
+        </div >
     )
 }
