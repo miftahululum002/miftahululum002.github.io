@@ -1,18 +1,18 @@
 {
     "email": "Email",
     "address": "Address",
-    "IT Enthusiast": "IT Enthusiast",
-    "about me": "About Me",
+    "it_Enthusiast": "IT Enthusiast",
+    "about_me": "About Me",
     "skills": "Skills",
     "education": "Education",
-    "education & experience": "Education & Experience",
+    "education_&_experience": "Education & Experience",
     "certification": "Certification",
     "certificate": "Certificate",
     "certificates": "Certificates",
-    "certificate & training": "Certificate & Training",
-    "personal portfolio": "Personal Portfolio",
+    "certificate_&_training": "Certificate & Training",
+    "personal_portfolio": "Personal Portfolio",
     "portfolio": "Portfolio",
-    "contact me": "Contact Me",
+    "contact_me": "Contact Me",
     "city": "City",
     "phone": "Phone",
     "freelance": "Freelance",
@@ -26,5 +26,6 @@
     "file": "File",
     "date": "Date",
     "expired date": "Expired Date",
-    "skills and competencies": "Skills and Competencies"
+    "skills_and_competencies": "Skills and Competencies",
+    "link": "Link"
 }
