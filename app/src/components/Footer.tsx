@@ -69,7 +69,7 @@ export default function Footer({ appname }: FooterProps) {
                 </div>
 
                 <div className="text-center mt-6 text-sm text-gray-500">
-                    &copy; {new Date().getFullYear()} {appname}. All Rights Reserved.
+                    &copy; 2022 - {new Date().getFullYear()} {appname}. All Rights Reserved.
                 </div>
             </div>
         </footer>
