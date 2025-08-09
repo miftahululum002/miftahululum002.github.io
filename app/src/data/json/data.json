@@ -1,4 +1,5 @@
 {
+    "name": "Miftahul Ulum",
     "author": "Miftahul Ulum, S.Pd.",
     "email": "ulumiftahul06@gmail.com",
     "year": "2024",
@@ -7,6 +8,7 @@
     "gitlab": "https://gitlab.com/miftahululum002",
     "app_name": "Miftahul Ulum",
     "contact": {
+        "name": "Miftahul Ulum",
         "phone": "085117248442",
         "wa": "+6285117248442",
         "city": "Malang, East Java, Indonesia",
@@ -24,7 +26,8 @@
     ],
     "certificates": [
         {
-            "name": "<b>Belajar Machine Learning untuk Pemula</b> &mdash; Dicoding",
+            "name": "Belajar Machine Learning untuk Pemula",
+            "issued_by": "Dicoding",
             "date": "15 Juni 2024",
             "expired": "15 Juni 2027",
             "link": [
@@ -33,7 +36,8 @@
             ]
         },
         {
-            "name": "<b>Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)</b> &mdash; Dicoding",
+            "name": "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+            "issued_by": "Dicoding",
             "date": "14 Juni 2024",
             "expired": "14 Juni 2027",
             "link": [
@@ -42,7 +46,8 @@
             ]
         },
         {
-            "name": "<b>Belajar Membuat Aplikasi Back-End untuk Pemula</b> &mdash; Dicoding",
+            "name": "Belajar Membuat Aplikasi Back-End untuk Pemula",
+            "issued_by": "Dicoding",
             "date": "14 Juni 2024",
             "expired": "14 Juni 2027",
             "link": [
@@ -51,7 +56,8 @@
             ]
         },
         {
-            "name": "<b>Belajar Dasar Pemrograman JavaScript</b> &mdash; Dicoding",
+            "name": "Belajar Dasar Pemrograman JavaScript",
+            "issued_by": "Dicoding",
             "date": "12 Juni 2024",
             "expired": "12 Juni 2027",
             "link": [
@@ -60,7 +66,8 @@
             ]
         },
         {
-            "name": "<b>Memulai Pemrograman dengan Python</b> &mdash; Dicoding",
+            "name": "Memulai Pemrograman dengan Python",
+            "issued_by": "Dicoding",
             "date": "12 Februari 2024",
             "expired": "12 Februari 2027",
             "link": [
@@ -69,7 +76,8 @@
             ]
         },
         {
-            "name": "<b>Belajar Dasar Visualisasi Data</b> &mdash; Dicoding",
+            "name": "Belajar Dasar Visualisasi Data",
+            "issued_by": "Dicoding",
             "date": "07 Februari 2024",
             "expired": "07 Februari 2027",
             "link": [
@@ -78,7 +86,8 @@
             ]
         },
         {
-            "name": "Sertifikasi Kompetensi <b>Senior Programmer</b> &mdash; BNSP",
+            "name": "Sertifikasi Kompetensi Senior Programmer",
+            "issued_by": "BNSP",
             "date": "16 Februari 2023",
             "expired": "16 Februari 2026",
             "link": [
@@ -87,7 +96,8 @@
             ]
         },
         {
-            "name": "<b>Pelatihan Program Profesional Academy</b> &mdash; Digital Talent Scholarship 2021 Pada Skema \"Ruby\" sejumlah 77 Jam Pelatihan",
+            "name": "Pelatihan Program Profesional Academy Pada Skema \"Ruby\" sejumlah 77 Jam Pelatihan",
+            "issued_by": "Digital Talent Scholarship",
             "date": "25 Agustus - 25 September 2021",
             "expired": "-",
             "link": [
@@ -95,7 +105,8 @@
             ]
         },
         {
-            "name": "<b>Pelatihan Ruby</b> &mdash; Progate",
+            "name": "Pelatihan Ruby",
+            "issued_by": "Progate",
             "date": "23 Januari 2021",
             "expired": "-",
             "link": [
@@ -104,7 +115,8 @@
             ]
         },
         {
-            "name": "<b>Pelatihan React</b> &mdash; Progate",
+            "name": "Pelatihan React",
+            "issued_by": "Progate",
             "date": "23 Januari 2021",
             "expired": "-",
             "link": [
@@ -113,7 +125,8 @@
             ]
         },
         {
-            "name": "<b>Pelatihan Javascript</b> &mdash; Progate",
+            "name": "Pelatihan Javascript",
+            "issued_by": "Progate",
             "date": "23 Januari 2021",
             "expired": "-",
             "link": [
@@ -122,7 +135,8 @@
             ]
         },
         {
-            "name": "<b>Pelatihan Python</b> &mdash; Progate",
+            "name": "Pelatihan Python",
+            "issued_by": "Progate",
             "date": "20 Januari 2021",
             "expired": "-",
             "link": [
@@ -131,7 +145,8 @@
             ]
         },
         {
-            "name": "<b>Pelatihan Node JS</b> &mdash; Progate",
+            "name": "Pelatihan Node JS",
+            "issued_by": "Progate",
             "date": "20 Januari 2021",
             "expired": "-",
             "link": [
@@ -140,7 +155,8 @@
             ]
         },
         {
-            "name": "<b>Pelatihan HTML & CSS</b> &mdash; Progate",
+            "name": "Pelatihan HTML & CSS",
+            "issued_by": "Progate",
             "date": "20 Desember 2020",
             "expired": "-",
             "link": [
@@ -149,7 +165,8 @@
             ]
         },
         {
-            "name": "<b>Pelatihan SQL</b> &mdash; Progate",
+            "name": "Pelatihan SQL",
+            "issued_by": "Progate",
             "date": "19 Desember 2020",
             "expired": "-",
             "link": [
@@ -158,7 +175,8 @@
             ]
         },
         {
-            "name": "<b>Pelatihan PHP</b> &mdash; Progate",
+            "name": "Pelatihan PHP",
+            "issued_by": "Progate",
             "date": "19 Desember 2020",
             "expired": "-",
             "link": [
@@ -167,7 +185,8 @@
             ]
         },
         {
-            "name": "<b>Pelatihan Java</b> &mdash; Progate",
+            "name": "Pelatihan Java",
+            "issued_by": "Progate",
             "date": "13 Desember 2020",
             "expired": "-",
             "link": [
@@ -176,7 +195,8 @@
             ]
         },
         {
-            "name": "<b>Pelatihan Git</b> &mdash; Progate",
+            "name": "Pelatihan Git",
+            "issued_by": "Progate",
             "date": "12 Desember 2020",
             "expired": "-",
             "link": [
@@ -185,7 +205,8 @@
             ]
         },
         {
-            "name": "<b>Pelatihan Command Line (Unix)</b> &mdash; Progate",
+            "name": "Pelatihan Command Line (Unix)",
+            "issued_by": "Progate",
             "date": "12 Desember 2020",
             "expired": "-",
             "link": [
@@ -194,7 +215,8 @@
             ]
         },
         {
-            "name": "<b>Microsoft Office Desktop Application</b> &mdash; Universitas Brawijaya - Trust Training Partners - Microsoft Learning Partners",
+            "name": "Microsoft Office Desktop Application",
+            "issued_by": "Universitas Brawijaya - Trust Training Partners - Microsoft Learning Partners",
             "date": "25 Juni 2020",
             "expired": "-",
             "link": [

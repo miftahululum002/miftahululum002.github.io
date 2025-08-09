@@ -3,6 +3,7 @@ interface CertificateProps {
     certificates: Array<{
         // id: number;
         name: string;
+        issued_by: string;
         date: string;
         expired: string;
         link: string[];
@@ -12,7 +13,7 @@ import { translate } from '../helpers/lang';
 export default function Certificate({ certificates }: CertificateProps) {
     return (
         <div className="container w-full text-sm my-10">
-            <h2 className="section-title">Pelatihan dan Sertifikasi</h2>
+            <h2 className="section-title">{translate('certificate_&_training')}</h2>
             <table className="w-full border-collapse border-primary">
                 <thead className="py-4">
                     <tr className="border-top-bottom">
@@ -27,7 +28,7 @@ export default function Certificate({ certificates }: CertificateProps) {
                     {certificates.map((certificate, index) => (
                         <tr key={index} className="border-top-bottom">
                             <td className="text-center">{index + 1}</td>
-                            <td><span dangerouslySetInnerHTML={{ __html: certificate.name }} /></td>
+                            <td><span className="font-bold">{certificate.name}</span> &mdash; {certificate.issued_by}</td>
                             <td className="font-medium">{certificate.date}</td>
                             <td className="font-medium">{certificate.expired}</td>
                             <td className="text-center">

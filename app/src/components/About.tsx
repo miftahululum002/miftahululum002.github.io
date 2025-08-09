@@ -1,5 +1,6 @@
 'use client'
 type Contact = {
+    name: string;
     phone: string;
     city: string;
     degree: string;
@@ -12,13 +13,14 @@ type AboutProps = {
     contact: Contact;
 };
 import { translate } from '../helpers/lang';
+// import data from "../data/json/data.json";
 const About = ({ contact }: AboutProps) => {
     return (
         <div className="container w-full text-base my-10">
             <h2 className="section-title">Tentang Saya</h2>
-            <p className="mb-3 text-center">My name is <span className="font-bold">Miftahul Ulum</span> and you can call me <span className="font-bold">'Miftah'</span> or <span className="font-bold">'Ulum'</span>. I'm web developer from Indonesia, more precisely in the Malang City East Java.
+            <p className="mb-3 text-center">My name is <span className="font-bold">{contact.name}</span> and you can call me <span className="font-bold">'Miftah'</span> or <span className="font-bold">'Ulum'</span>. I'm web developer from Indonesia, more precisely in the Malang City East Java.
             </p>
-            <p className="mb-3 text-center">Nama saya <span className="font-bold">Miftahul Ulum</span> Anda bisa memanggil saya <span className="font-bold">'Miftah'</span> atau <span className="font-bold">'Ulum'</span>. Saya seorang web developer dari Malang Jawa Timur Indonesia</p>
+            <p className="mb-3 text-center">Nama saya <span className="font-bold">{contact.name}</span> Anda bisa memanggil saya <span className="font-bold">'Miftah'</span> atau <span className="font-bold">'Ulum'</span>. Saya seorang web developer dari Malang Jawa Timur Indonesia</p>
             <div className="w-full mt-5">
                 <div className="flex justify-center">
                     <div className="w-1/4 mr-10">
