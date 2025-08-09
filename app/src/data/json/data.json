@@ -1,0 +1,753 @@
+{
+    "author": "Miftahul Ulum, S.Pd.",
+    "email": "ulumiftahul06@gmail.com",
+    "year": "2024",
+    "instagram": "@miftahululum002",
+    "github": "https://github.com/miftahululum002",
+    "gitlab": "https://gitlab.com/miftahululum002",
+    "app_name": "Miftahul Ulum",
+    "contact": {
+        "phone": "085117248442",
+        "wa": "+6285117248442",
+        "city": "Malang, East Java, Indonesia",
+        "degree": "bachelor",
+        "email": "ulumiftahul06@gmail.com",
+        "freelance": "Available",
+        "interest": "Information Technology"
+    },
+    "interests": [
+        "Information Technoloy Education",
+        "Information Technology",
+        "Programming",
+        "Web development",
+        "Backend development"
+    ],
+    "certificates": [
+        {
+            "name": "<b>Belajar Machine Learning untuk Pemula</b> &mdash; Dicoding",
+            "date": "15 Juni 2024",
+            "expired": "15 Juni 2027",
+            "link": [
+                "/certificates/sertifikat_course_184_1451925_150624183926_miftahululum002.pdf",
+                "https://www.dicoding.com/certificates/4EXGQ392QZRL"
+            ]
+        },
+        {
+            "name": "<b>Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)</b> &mdash; Dicoding",
+            "date": "14 Juni 2024",
+            "expired": "14 Juni 2027",
+            "link": [
+                "/certificates/sertifikat_course_251_1451925_140624210832_miftahululum002.pdf",
+                "https://www.dicoding.com/certificates/ERZR1242OZYV"
+            ]
+        },
+        {
+            "name": "<b>Belajar Membuat Aplikasi Back-End untuk Pemula</b> &mdash; Dicoding",
+            "date": "14 Juni 2024",
+            "expired": "14 Juni 2027",
+            "link": [
+                "/certificates/sertifikat_course_261_1451925_140624195812_miftahululum002.pdf",
+                "https://www.dicoding.com/certificates/72ZDVKEO6ZYW"
+            ]
+        },
+        {
+            "name": "<b>Belajar Dasar Pemrograman JavaScript</b> &mdash; Dicoding",
+            "date": "12 Juni 2024",
+            "expired": "12 Juni 2027",
+            "link": [
+                "/certificates/sertifikat_course_256_1451925_140624173457_miftahululum002.pdf",
+                "https://www.dicoding.com/certificates/QLZ9768M2P5D"
+            ]
+        },
+        {
+            "name": "<b>Memulai Pemrograman dengan Python</b> &mdash; Dicoding",
+            "date": "12 Februari 2024",
+            "expired": "12 Februari 2027",
+            "link": [
+                "/certificates/sertifikat_course_86_1451925_080324215930_miftahululum002.pdf",
+                "https://www.dicoding.com/certificates/KEXL8K9Y4ZG2"
+            ]
+        },
+        {
+            "name": "<b>Belajar Dasar Visualisasi Data</b> &mdash; Dicoding",
+            "date": "07 Februari 2024",
+            "expired": "07 Februari 2027",
+            "link": [
+                "/certificates/sertifikat_course_177_1451925_080324220103_miftahululum002.pdf",
+                "https://www.dicoding.com/certificates/JMZVDRN4JZN9"
+            ]
+        },
+        {
+            "name": "Sertifikasi Kompetensi <b>Senior Programmer</b> &mdash; BNSP",
+            "date": "16 Februari 2023",
+            "expired": "16 Februari 2026",
+            "link": [
+                "/certificates/senior-programmer_miftahululum002.pdf",
+                "https://sertifikasi.lspdigital.id/sertifikasi/cetak_sertifikat/67286"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Program Profesional Academy</b> &mdash; Digital Talent Scholarship 2021 Pada Skema \"Ruby\" sejumlah 77 Jam Pelatihan",
+            "date": "25 Agustus - 25 September 2021",
+            "expired": "-",
+            "link": [
+                "/certificates/proa-ruby_miftahululum.pdf"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Ruby</b> &mdash; Progate",
+            "date": "23 Januari 2021",
+            "expired": "-",
+            "link": [
+                "/certificates/ruby_miftahululum002.pdf",
+                "https://progate.com/course_certificate/a21360b2qlkmux"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan React</b> &mdash; Progate",
+            "date": "23 Januari 2021",
+            "expired": "-",
+            "link": [
+                "/certificates/react_miftahululum002.pdf",
+                "https://progate.com/course_certificate/545ce45eqndkn2"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Javascript</b> &mdash; Progate",
+            "date": "23 Januari 2021",
+            "expired": "-",
+            "link": [
+                "/certificates/javascript_miftahululum002.pdf",
+                "https://progate.com/course_certificate/44f4cf96qndmmx"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Python</b> &mdash; Progate",
+            "date": "20 Januari 2021",
+            "expired": "-",
+            "link": [
+                "/certificates/python_miftahululum002.pdf",
+                "https://progate.com/course_certificate/06071582qlmm9h"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Node JS</b> &mdash; Progate",
+            "date": "20 Januari 2021",
+            "expired": "-",
+            "link": [
+                "/certificates/nodejs_miftahululum002.pdf",
+                "https://progate.com/course_certificate/17f3a49eqn7ua0"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan HTML & CSS</b> &mdash; Progate",
+            "date": "20 Desember 2020",
+            "expired": "-",
+            "link": [
+                "/certificates/html_miftahululum002.pdf",
+                "https://progate.com/course_certificate/09cb2ad2qlmtpi"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan SQL</b> &mdash; Progate",
+            "date": "19 Desember 2020",
+            "expired": "-",
+            "link": [
+                "/certificates/sql_miftahululum002.pdf",
+                "https://progate.com/course_certificate/bd2a4dc3qlkjwj"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan PHP</b> &mdash; Progate",
+            "date": "19 Desember 2020",
+            "expired": "-",
+            "link": [
+                "/certificates/php_miftahululum002.pdf",
+                "https://progate.com/course_certificate/7cd3fa9aqlkjfv"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Java</b> &mdash; Progate",
+            "date": "13 Desember 2020",
+            "expired": "-",
+            "link": [
+                "/certificates/java_miftahululum002.pdf",
+                "https://progate.com/course_certificate/6f70f22aql9wrh"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Git</b> &mdash; Progate",
+            "date": "12 Desember 2020",
+            "expired": "-",
+            "link": [
+                "/certificates/git_miftahululum002.pdf",
+                "https://progate.com/course_certificate/c9f11200ql7f0q"
+            ]
+        },
+        {
+            "name": "<b>Pelatihan Command Line (Unix)</b> &mdash; Progate",
+            "date": "12 Desember 2020",
+            "expired": "-",
+            "link": [
+                "/certificates/cliunix_miftahululum002.pdf",
+                "https://progate.com/course_certificate/8fc78d14ql7g1x"
+            ]
+        },
+        {
+            "name": "<b>Microsoft Office Desktop Application</b> &mdash; Universitas Brawijaya - Trust Training Partners - Microsoft Learning Partners",
+            "date": "25 Juni 2020",
+            "expired": "-",
+            "link": [
+                "/certificates/sertifikasi-it_miftahululum002.JPG"
+            ]
+        }
+    ],
+    "educations": [
+        {
+            "name": "Universitas Negeri Malang - Pendidikan Profesi Guru",
+            "description": "Sekolah Pascasarjana",
+            "year_start": "2024",
+            "year_end": "2024",
+            "details": [
+                "Pendidikan Profesi Guru, Sekolah Pascasarjana, Universitas Negeri Malang"
+            ]
+        },
+        {
+            "name": "Brawijaya University — Information Technology Education",
+            "description": "Faculty of Computer Science",
+            "year_start": "2017",
+            "year_end": "2021",
+            "details": [
+                "Faculty of Computer Science of Brawijaya University, Malang"
+            ]
+        },
+        {
+            "description": "Pendidikan Non-Formal",
+            "name": "PP Miftahul Huda",
+            "year_start": "2017",
+            "year_end": "2023",
+            "details": [
+                "Pondok Pesantren Miftahul Huda (Gading), Klojen, Kota Malang"
+            ]
+        },
+        {
+            "name": "MAN Turen",
+            "description": "MAN Turen - MAN 2 Malang",
+            "year_start": "2013",
+            "year_end": "2016",
+            "details": [
+                "Islamic State High School, Turen, Malang"
+            ]
+        },
+        {
+            "description": "Pendidikan Non-Formal",
+            "name": "PP Darul Huda",
+            "year_start": "2005",
+            "year_end": "2013",
+            "details": [
+                "Pondok Pesantren Darul Huda, Codo - Wajak, Kab. Malang"
+            ]
+        },
+        {
+            "name": "MTs Darul Huda",
+            "description": "Madrasah Tsanawiyah Darul Huda",
+            "year_start": "2009",
+            "year_end": "2013",
+            "details": [
+                "Junior High School, Wajak, Malang"
+            ]
+        },
+        {
+            "name": "MI Darul Huda",
+            "description": "Madrasah Ibtidaiyah Darul Huda",
+            "year_start": "2004",
+            "year_end": "2009",
+            "details": [
+                "Primary School, Wajak, Malang"
+            ]
+        }
+    ],
+    "experiences": [
+        {
+            "name": "Freelance Programmer",
+            "description": "Freelance Web Developer",
+            "year_start": "2024",
+            "year_end": "Present",
+            "details": [
+                "Digital Services"
+            ]
+        },
+        {
+            "name": "Senior Programmer",
+            "description": "SR. Programmer",
+            "year_start": "2023",
+            "year_end": "2024",
+            "details": [
+                "PT. Arkatama Multi Solusindo"
+            ]
+        },
+        {
+            "name": "Junior Web Developer",
+            "description": "JR. Web Developer",
+            "year_start": "2022",
+            "year_end": "2023",
+            "details": [
+                "PT. Arkatama Multi Solusindo"
+            ]
+        },
+        {
+            "name": "Junior Programmer",
+            "description": "JR. Programmer",
+            "year_start": "2021",
+            "year_end": "2022",
+            "details": [
+                "PT. Arkatama Multi Solusindo"
+            ]
+        },
+        {
+            "name": "Magang Web Developer",
+            "description": "Internship Web Developer",
+            "year_start": "2021",
+            "year_end": "2021",
+            "details": [
+                "Institut Teknologi Sains dan Kesehatan (ITSK) RS dr. Soepraoen Malang"
+            ]
+        },
+        {
+            "name": "Guru TKJ SMKN 3 Malang (Internship/PPL",
+            "description": "SMKN 3 Malang",
+            "year_start": "2020",
+            "year_end": "2020",
+            "details": [
+                "Administrasi Jaringan",
+                "Teknologi Internet Berbasis WAN"
+            ]
+        },
+        {
+            "name": "Tutor Sistem Basis Data",
+            "description": "Tutor Sistem Basis Data",
+            "year_start": "2019",
+            "year_end": "2019",
+            "details": [
+                "Dasar Basis Data",
+                "Desain Basis Data",
+                "Pemodelan Basis Data",
+                "Pemrograman Basis Data"
+            ]
+        },
+        {
+            "name": "Tutor Microsoft Office",
+            "description": "Tutor Microsoft Office",
+            "year_start": "2018",
+            "year_end": "2018",
+            "details": [
+                "Ms Word",
+                "Ms Excel",
+                "Ms Powerpoint"
+            ]
+        },
+        {
+            "name": "Asisten Praktikum",
+            "description": "Faculty of Computer Science of Brawijaya University, Malang",
+            "year_start": "2018",
+            "year_end": "2021",
+            "details": [
+                "Computer Networking",
+                "Basic Programming (Java)",
+                "Java Programming",
+                "Multi Platform Programming (Flutter)",
+                "Web Programming (PHP)",
+                "Database Programming (MySQL, IBM DB2, Oracle Database)",
+                "Database Administration (IBM DB2)",
+                "Administration System Server (Ubuntu/CentOS)"
+            ]
+        },
+        {
+            "name": "Staf Tata Usaha",
+            "description": "MAN Turen",
+            "year_start": "2016",
+            "year_end": "2017",
+            "details": [
+                "Web Administrator",
+                "Pusat Data Dan Informasi"
+            ]
+        }
+    ],
+    "portfolios": {
+        "personal": [
+            {
+                "name": "Frontend Dengan TailwindCSS",
+                "shortname": "Web Desain dengan Tailwind CSS",
+                "year": "2024",
+                "image": "assets/img/portfolio/tailwindcss.png",
+                "link": "https://miftahululum002.github.io/portfolio-tailwind",
+                "description": "",
+                "technology": "TailwindCSS, JavaScript"
+            },
+            {
+                "name": "Pondok Pesantren CMS",
+                "shortname": "Ponpes CMS",
+                "year": "2024",
+                "image": "assets/img/portfolio/ponpes-app.png",
+                "link": "#",
+                "description": "",
+                "technology": "Laravel, MySQL, JQuery, Bootstrap"
+            },
+            {
+                "name": "Whatsapp Gateway Multi Session",
+                "shortname": "WA Gateway",
+                "year": "2024",
+                "image": "assets/img/portfolio/gateway.png",
+                "link": "https://gateway.codopro.id",
+                "description": "",
+                "technology": "Laravel, MySQL, NodeJS, JQuery, Bootstrap"
+            },
+            {
+                "name": "Aplikasi Manajamen Arsip Surat dan Disposisi",
+                "shortname": "SIM Surat",
+                "year": "2024",
+                "image": "assets/img/portfolio/surat.png",
+                "link": "#",
+                "description": "",
+                "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
+            },
+            {
+                "name": "Aplikasi Wa Gateway Berbasis Web",
+                "shortname": "Gateway API",
+                "year": "2023",
+                "image": "assets/img/portfolio/gate-api.png",
+                "link": "#",
+                "description": "",
+                "technology": "Laravel, MySQL, NodeJS, JQuery, Bootstrap"
+            },
+            {
+                "name": "Sistem Payroll Manajement dan Notifikasi Via Whatsapp",
+                "shortname": "Payroll Notification",
+                "year": "2023",
+                "image": "assets/img/portfolio/notifikator.png",
+                "link": "#",
+                "description": "",
+                "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
+            },
+            {
+                "name": "Aplikasi Point Of Sales (POS) Untuk Penjualan Ayam dan Pakan",
+                "shortname": "Point Of Sales",
+                "year": "2023",
+                "image": "assets/img/portfolio/bgskin.png",
+                "link": "#",
+                "description": "",
+                "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
+            },
+            {
+                "name": "Aplikasi Analisis Klinis Kompetensi Guru",
+                "shortname": "Analisis Klinis Kompetensi Guru",
+                "year": "2023",
+                "image": "assets/img/portfolio/untitled.png",
+                "link": "#",
+                "description": "",
+                "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
+            },
+            {
+                "name": "Aplikasi Analisis Kebutuhan Gizi dan Vitamin",
+                "shortname": "Indoned",
+                "year": "2022",
+                "image": "assets/img/portfolio/untitled.png",
+                "link": "#",
+                "description": "Aplikasi Analisis Kebutuhan Gizi dan Vitamin",
+                "technology": "CodeIgniter, MySQL, JQuery, Bootstrap"
+            },
+            {
+                "name": "Aplikasi Pengurusan Izin Khusus Sie Keamanan Dan Ketertiban PP Miftahul Huda Malang",
+                "shortname": "Sistem iKhusus",
+                "year": "2022",
+                "image": "assets/img/portfolio/ikhusus.png",
+                "link": "https://aman.gadingpesantren.id/public",
+                "description": "",
+                "technology": "Laravel, MySQL, JQuery, Bootstrap"
+            },
+            {
+                "name": "Aplikasi Penerimaan Peserta Didik Baru (PPDB) di MAN 2 MALANG (ex MAN TUREN)",
+                "shortname": "PPDB MAN 2 Malang",
+                "year": "2019",
+                "image": "assets/img/portfolio/untitled.png",
+                "link": "#",
+                "description": "",
+                "technology": "Laravel, MySQL, NodeJS, JQuery, Bootstrap"
+            }
+        ],
+        "with_team": [
+            {
+                "name": "Sistem Informasi Penataan Ruang (Sipetarung)",
+                "shortname": "Sipetarung",
+                "year": "2024",
+                "image": "assets/img/portfolio/sipetarung.png",
+                "link": "https://sipetarung.arkatama.id",
+                "description": "Aplikasi untuk memetakan dan menata ruang di suatu wilayah di Kalimantan Utara.",
+                "technology": "CodeIgniter, MySQL, LeafletJS, JQuery, Bootstrap"
+            },
+            {
+                "name": "Sistem Penerimaan Mahasiswa Baru (PMB) Universitas Hindu Negeri (UHN) I Gusti Bagus Sugriwa Denpasar Bali",
+                "shortname": "PMB UHN Sugriwa",
+                "year": "2023",
+                "image": "assets/img/portfolio/pmb-uhn.png",
+                "link": "https://pmb.uhnsugriwa.ac.id",
+                "description": "Aplikasi manajemen penerimaan mahasiswa baru di UHN Sugriwa Denpasar Bali yang terintegrasi dengan bank BPD Bali.",
+                "technology": "CodeIgniter, Laravel, MySQL, JQuery, Bootstrap, API Bank BPD Bali"
+            },
+            {
+                "name": "Sistem Keuangan SION (Siakad) Terintegrasi dengan Bank BPD Bali di Universitas Hindu Negeri (UHN) I Gusti Bagus Sugriwa Denpasar Bali",
+                "shortname": "Siakad UHN Sugriwa",
+                "year": "2023",
+                "image": "assets/img/portfolio/siakad-uhn.png",
+                "link": "https://siakad-admin.uhnsugriwa.ac.id",
+                "description": "Sistem manajemen keuangan dan pembayaran kuliah yang terintegrasi dengan bank BPD Bali di UHN Sugriwa Denpasar Bali.",
+                "technology": "CodeIgniter, Laravel, MySQL, JQuery, Bootstrap, API Bank BPD Bali"
+            },
+            {
+                "name": "Sistem Informasi Maufacturing Terintegrasi dengan Accounting, Inventory, Finance, Marketing dll",
+                "shortname": "Soojin App",
+                "year": "2023",
+                "image": "assets/img/portfolio/soojin-app.png",
+                "link": "https://soojin.arkatama.id",
+                "description": "Aplikasi sistem informasi manufacturing yang terintegrasi dengan accounting, inventory, finance, marketing, dll.",
+                "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, SwiperJS, HighchartsJS"
+            },
+            {
+                "name": "Aplikasi Pendaftaran Mahasiswa Baru (PMB) IAIN Ponorogo",
+                "shortname": "PMB IAIN Ponorogo",
+                "year": "2023",
+                "image": "assets/img/portfolio/pmb-iainpo.png",
+                "link": "https://my.iainponorogo.ac.id/siakad/pmb",
+                "description": "Aplikasi penerimaan mahasiswa baru yang terintegrasi dengan BNI",
+                "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, SwiperJS, HighchartsJS, APi BNI eCollection"
+            },
+            {
+                "name": "Aplikasi Registrasi Ulang IAIN Ponorogo",
+                "shortname": "eRegistrasi IAIN Ponorogo",
+                "year": "2023",
+                "image": "assets/img/portfolio/eregistrasi-iainpo.png",
+                "link": "https://my.iainponorogo.ac.id/siakad/e-registrasi",
+                "description": "Aplikasi registrasi ulang mahasiswa baru",
+                "technology": "CodeIgniter, Laravel, PostgreSQL, JQuery, Bootstrap, SwiperJS, HighchartsJS"
+            },
+            {
+                "name": "Siakad IAIN Ponorogo",
+                "shortname": "Siakad IAIN Ponorogo",
+                "year": "2023",
+                "image": "assets/img/portfolio/siakad-iainpo.png",
+                "link": "https://my.iainponorogo.ac.id/siakad/siakad-admin",
+                "description": "Sistem informasi akademik bagian keuangan, UKT, tagihan pembayaran",
+                "technology": "CodeIgniter, Laravel, PostgreSQL, JQuery, Bootstrap, SwiperJS, HighchartsJS"
+            },
+            {
+                "name": "Aplikasi Pendaftaran Mahasiswa Baru Pusat Pendidikan Pertanian (PUSDIKTAN)",
+                "shortname": "PMB Pusdiktan",
+                "year": "2022 & 2023",
+                "image": "assets/img/portfolio/pmb-pusdiktan.png",
+                "link": "https://pmb.pusdiktan.id",
+                "description": "Aplikasi penerimaan mahasiswa baru Politeknik di lingkungan Kementerian Pertanian",
+                "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, SwiperJS, HighchartsJS"
+            },
+            {
+                "name": "Computer Assisted Test (CAT) PMB PUSDIKTAN",
+                "shortname": "CAT Pusdiktan",
+                "year": "2022",
+                "image": "assets/img/portfolio/cat-pusdiktan.png",
+                "link": "https://cat.pusdiktan.id",
+                "description": "Aplikasi ujian online untuk penerimaan mahasiswa baru Politeknik di lingkungan Kementerian Pertanian",
+                "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, SwiperJS, HighchartsJS"
+            },
+            {
+                "name": "Aplikasi Accounting",
+                "shortname": "Accounting",
+                "year": "2021",
+                "image": "assets/img/portfolio/accounting-itsk.png",
+                "link": "https://accounting.itsk-soepraoen.ac.id",
+                "description": "Aplikasi keuangan",
+                "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, HighchartsJS"
+            },
+            {
+                "name": "Sistem Networking",
+                "shortname": "Sistem Networking",
+                "year": "2021",
+                "image": "assets/img/portfolio/bgskin.png",
+                "link": "https://bgskin.arkatama.id",
+                "description": "Aplikasi networking pelanggan",
+                "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, HighchartsJS"
+            },
+            {
+                "name": "Sistem Accounting Terintegrasi dengan Kepelangganan",
+                "shortname": "Sistem Kepelangganan",
+                "year": "2021",
+                "image": "assets/img/portfolio/asnet.png",
+                "link": "https://asnet.arkatama.id",
+                "description": "Aplikasi manajemen pelanggan ISP yang terintegrasi dengan accounting",
+                "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, HighchartsJS"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "name": "Web Programming",
+            "value": 90,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "HTML",
+            "value": 100,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "CSS",
+            "value": 90,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Tailwind CSS",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Node JS",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "React JS",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Golang",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "SASS",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "PHP",
+            "value": 95,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Laravel",
+            "value": 92,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "CodeIgniter",
+            "value": 90,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Yii Framework",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "MySQL",
+            "value": 90,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Javascript",
+            "value": 85,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "IBM DB2",
+            "value": 90,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Oracle Database",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Phyton",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Django",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Git",
+            "value": 95,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Ruby on Rails",
+            "value": 80,
+            "category": "teknis",
+            "unit": "%"
+        },
+        {
+            "name": "Komunikasi (Communication)",
+            "value": 85,
+            "category": "other",
+            "unit": "%"
+        },
+        {
+            "name": "Manajemen Waktu (Time Management)",
+            "value": 90,
+            "category": "other",
+            "unit": "%"
+        }
+    ],
+    "navigations": [
+        {
+            "name": "about_me",
+            "href": "#about"
+        },
+        {
+            "name": "skills",
+            "href": "#skill"
+        },
+        {
+            "name": "education_&_experience",
+            "href": "#educations"
+        },
+        {
+            "name": "certificate_&_training",
+            "href": "#certificate"
+        },
+        {
+            "name": "personal_portfolio",
+            "href": "#personal-portfolio"
+        },
+        {
+            "name": "portfolio",
+            "href": "#portfolio"
+        },
+        {
+            "name": "contact_me",
+            "href": "#contact"
+        }
+    ]
+}

@@ -2,7 +2,7 @@
 interface PortfolioProps {
     title: string;
     portfolios: Array<{
-        id: number;
+        // id: number;
         name: string;
         shortname: string;
         image: string;

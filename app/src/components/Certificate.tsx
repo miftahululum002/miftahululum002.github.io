@@ -1,7 +1,7 @@
 'use client'
 interface CertificateProps {
     certificates: Array<{
-        id: number;
+        // id: number;
         name: string;
         date: string;
         expired: string;

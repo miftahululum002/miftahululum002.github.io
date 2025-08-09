@@ -15,19 +15,7 @@ import LanguageSwitcher from './components/LanguageSwitcher';
 import { ReactTyped } from "react-typed";
 import { translate } from './helpers/lang';
 import { useTranslation } from 'react-i18next';
-const navigation = [
-  { name: 'about_me', href: '#about' },
-  { name: 'skills', href: '#skill' },
-  { name: 'education_&_experience', href: '#summary' },
-  { name: 'certificate_&_training', href: '#certificate' },
-  { name: 'personal_portfolio', href: '#personal-portfolio' },
-  { name: 'portfolio', href: '#portfolio' },
-  { name: 'contact_me', href: '#contact' },
-]
-
-const interests = [
-  "Information Technoloy Education", "Information Technology", "Programming", "Web development", "Backend development"
-];
+import data from "./data/json/data.json";
 export default function App() {
   const { t } = useTranslation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -46,58 +34,6 @@ export default function App() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  const appName = "Miftahul Ulum"
-  const contact = {
-    phone: "085233551629",
-    city: "Malang, East Java, Indonesia",
-    degree: "bachelor",
-    email: "ulumiftahul06@gmail.com",
-    freelance: "Available",
-    interest: "Information Technology"
-  }
-  const [certificates, setCertificates] = useState([]);
-  const [educations, setEducations] = useState([]);
-  const [experiences, setExperiences] = useState([]);
-  const [skills, setSkills] = useState([]);
-  const [portfolios, setPortfolios] = useState([]);
-  const [personalPortfolios, setPersonalPortfolios] = useState([]);
-  useEffect(() => {
-    fetch('./json/certificates.json')
-      .then(response => response.json())
-      .then(data => setCertificates(data.data))
-      .catch(error => console.error('Error loading JSON:', error));
-  }, []);
-
-  useEffect(() => {
-    fetch('./json/skills.json')
-      .then(response => response.json())
-      .then(data => setSkills(data.data))
-      .catch(error => console.error('Error loading JSON:', error));
-  }, []);
-  useEffect(() => {
-    fetch('./json/educations.json')
-      .then(response => response.json())
-      .then(data => setEducations(data.data))
-      .catch(error => console.error('Error loading JSON:', error));
-  }, []);
-  useEffect(() => {
-    fetch('./json/experiences.json')
-      .then(response => response.json())
-      .then(data => setExperiences(data.data))
-      .catch(error => console.error('Error loading JSON:', error));
-  }, []);
-  useEffect(() => {
-    fetch('./json/portfolios.json')
-      .then(response => response.json())
-      .then(data => setPortfolios(data.data))
-      .catch(error => console.error('Error loading JSON:', error));
-  }, []);
-  useEffect(() => {
-    fetch('./json/personal_portfolios.json')
-      .then(response => response.json())
-      .then(data => setPersonalPortfolios(data.data))
-      .catch(error => console.error('Error loading JSON:', error));
-  }, []);
 
   return (
     <>
@@ -107,13 +43,13 @@ export default function App() {
           <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
             <div className="flex lg:flex-1">
               <a href="#" className="-m-1.5 p-1.5 font-bold text-xl">
-                <span className="sr-only">{appName}</span>
+                <span className="sr-only">{data.app_name}</span>
                 {/* <img
                 alt=""
                 src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
                 className="h-8 w-auto"
               /> */}
-                {appName}
+                {data.app_name}
               </a>
             </div>
             <div className="flex lg:hidden">
@@ -127,7 +63,7 @@ export default function App() {
               </button>
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
-              {navigation.map((item) => (
+              {data.navigations.map((item) => (
                 <a key={item.name} href={item.href} className="menu text-sm/6 font-semibold text-gray-900">
                   {t(`${item.name}`)}
                 </a>
@@ -145,13 +81,13 @@ export default function App() {
             <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
                 <a href="#" className="-m-1.5 p-1.5 font-bold">
-                  <span className="sr-only">{appName}</span>
+                  <span className="sr-only">{data.app_name}</span>
                   {/* <img
                   alt=""
                   src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
                   className="h-8 w-auto"
                 /> */}
-                  {appName}
+                  {data.app_name}
                 </a>
                 <button
                   type="button"
@@ -165,7 +101,7 @@ export default function App() {
               <div className="mt-6 flow-root">
                 <div className="-my-6 divide-y divide-gray-500/10">
                   <div className="space-y-2 py-6">
-                    {navigation.map((item) => (
+                    {data.navigations.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
@@ -205,7 +141,7 @@ export default function App() {
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                My name is <span className="font-bold">{appName}</span>.{' '}
+                My name is <span className="font-bold">{data.app_name}</span>.{' '}
                 {/* <a href="#about" className="font-semibold text-primary">
                   <span aria-hidden="true" className="absolute inset-0" />
                   Read more <span aria-hidden="true">&rarr;</span>
@@ -218,7 +154,7 @@ export default function App() {
               </p>
               <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
                 <ReactTyped
-                  strings={interests}
+                  strings={data.interests}
                   typeSpeed={100}
                   backSpeed={70}
                   attr="placeholder"
@@ -255,25 +191,25 @@ export default function App() {
           </div>
         </div>
         <div id="about">
-          <About contact={contact} />
+          <About contact={data.contact} />
         </div>
         <div id="skill">
-          <Skill skills={skills} />
+          <Skill skills={data.skills} />
         </div>
-        <div id="summary">
-          <EducationExperience educations={educations} experiences={experiences} />
+        <div id="educations">
+          <EducationExperience educations={data.educations} experiences={data.experiences} />
         </div>
         <div id="certificate">
-          <Certificate certificates={certificates} />
+          <Certificate certificates={data.certificates} />
         </div>
         <div id="personal-portfolio">
-          <Portfolio portfolios={personalPortfolios} title={translate('personal_portfolio')} />
+          <Portfolio portfolios={data.portfolios.personal} title={translate('personal_portfolio')} />
         </div>
         <div id="portfolio">
-          <Portfolio portfolios={portfolios} title={translate('portfolio')} />
+          <Portfolio portfolios={data.portfolios.with_team} title={translate('portfolio')} />
         </div>
       </div >
-      <Footer appname={appName} />
+      <Footer appname={data.app_name} />
       <a
         href="#header"
         className="fixed hidden justify-center items-center z-[9999] bottom-4 right-4 p-4 h-14 w-14 bg-primary rounded-full hover:animate-pulse"

@@ -2,7 +2,7 @@
 interface FooterProps {
     appname: string;
 }
-
+import { translate } from '../helpers/lang';
 export default function Footer({ appname }: FooterProps) {
     return (
         <footer className="bg-dark text-gray-300 py-6">
@@ -17,19 +17,19 @@ export default function Footer({ appname }: FooterProps) {
                             href="#about"
                             className="hover:text-white transition duration-200"
                         >
-                            About Us
+                            {translate('about_me')}
                         </a>
                         <a
-                            href="#services"
+                            href="#educations"
                             className="hover:text-white transition duration-200"
                         >
-                            Services
+                            {translate('education')}
                         </a>
                         <a
                             href="#contact"
                             className="hover:text-white transition duration-200"
                         >
-                            Contact
+                            {translate('contact_me')}
                         </a>
                     </div>
 
