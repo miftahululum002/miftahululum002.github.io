@@ -1,3 +1,6 @@
+.DS_Store
+myresume
+.idea
 # Logs
 logs
 *.log
@@ -25,3 +28,4 @@ dist-ssr
 myresume
 .idea
 yarn.lock
+.vite
