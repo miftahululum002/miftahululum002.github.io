@@ -20,7 +20,7 @@ export default function Certificate({ certificates }: CertificateProps) {
                         <th className="w-1/12 py-3">#</th>
                         <th className="w-1/2 py-3 text-start">{translate('name')}</th>
                         <th className="w-1/5 py-3 text-start">{translate('date')}</th>
-                        <th className="w-1/12 py-3 text-start">{translate('expired date')}</th>
+                        <th className="w-1/12 py-3 text-start">{translate('expired_date')}</th>
                         <th className="w-1/12 py-3 text-center">{translate('file')}</th>
                     </tr>
                 </thead>
