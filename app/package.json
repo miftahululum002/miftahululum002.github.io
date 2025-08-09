@@ -9,7 +9,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "yarn run build",
+    "build:pages": "vite build --base=/",
+    "predeploy": "yarn run build:pages",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
