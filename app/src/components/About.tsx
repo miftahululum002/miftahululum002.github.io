@@ -36,11 +36,11 @@ const About = ({ contact }: AboutProps) => {
                         </p>
                         <ul className="list-disc mx-5">
                             <li><span className="font-bold">{translate('phone')}:</span> {contact.phone}</li>
-                            <li><span className="font-bold">{translate('city')}:</span> {contact.city}</li>
+                            <li><span className="font-bold">{translate('city')}:</span> {translate(contact.city)}</li>
                             <li><span className="font-bold">{translate('degree')}:</span> {translate(`${contact.degree}`)}</li>
                             <li><span className="font-bold">{translate('email')}:</span> {contact.email}</li>
-                            <li><span className="font-bold">{translate('freelance')}:</span> {contact.freelance}</li>
-                            <li><span className="font-bold">{translate('interest')}:</span> {contact.interest}</li>
+                            <li><span className="font-bold">{translate('freelance')}:</span> {translate(contact.freelance)}</li>
+                            <li><span className="font-bold">{translate('interest')}:</span> {translate(contact.interest)}</li>
                         </ul>
                     </div>
                 </div>
