@@ -485,7 +485,7 @@
                 "shortname": "Sistem iKhusus",
                 "year": "2022",
                 "image": "assets/img/portfolio/ikhusus.png",
-                "link": "https://aman.gadingpesantren.id/public",
+                "link": "https://aman.gadingpesantren.id",
                 "description": "",
                 "technology": "Laravel, MySQL, JQuery, Bootstrap"
             },
@@ -541,7 +541,7 @@
                 "shortname": "PMB IAIN Ponorogo",
                 "year": "2023",
                 "image": "assets/img/portfolio/pmb-iainpo.png",
-                "link": "https://my.iainponorogo.ac.id/siakad/pmb",
+                "link": "https://my.uinponorogo.ac.id/pmb",
                 "description": "Aplikasi penerimaan mahasiswa baru yang terintegrasi dengan BNI",
                 "technology": "CodeIgniter, MySQL, JQuery, Bootstrap, SwiperJS, HighchartsJS, APi BNI eCollection"
             },
@@ -559,7 +559,7 @@
                 "shortname": "Siakad IAIN Ponorogo",
                 "year": "2023",
                 "image": "assets/img/portfolio/siakad-iainpo.png",
-                "link": "https://my.iainponorogo.ac.id/siakad/siakad-admin",
+                "link": "https://my.uinponorogo.ac.id/siakad-admin",
                 "description": "Sistem informasi akademik bagian keuangan, UKT, tagihan pembayaran",
                 "technology": "CodeIgniter, Laravel, PostgreSQL, JQuery, Bootstrap, SwiperJS, HighchartsJS"
             },
